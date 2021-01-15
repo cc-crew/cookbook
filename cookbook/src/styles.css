@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  background-color: white;
+  background-image: linear-gradient(90deg, rgba(11, 156, 49, .5) 50%, transparent 50%), linear-gradient(rgba(11, 156, 49, .5) 50%, transparent 50%);
+  background-size: 102px 102px;
+  font-size: 20px;
+  height: calc(95vh - 50px);;
+  margin-bottom: 70px;
+  color: #364134 !important;
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-light{
+  background-color: #364134 !important;
+}
+.nav-link{
+  color: white !important;
+}
+
+.nav-link.selected{
+  color: darkgray !important;
+}
+
+input{
+  height: 40px !important;
+}
+
+card{
+  color: #364134 !important;
+}
+
+.btn{
+  color: #364134 !important;
+  border-color: #364134 !important;
+}
+
+.btn-outline-dark:hover{
+  color: white !important;
+  background-color: #364134 !important;
+}

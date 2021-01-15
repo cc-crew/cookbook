@@ -1,0 +1,24 @@
+<div class="container-lg" style="display: flex; flex-flow: wrap; text-align: center; padding-top: 16px;
+padding-bottom: 16px; max-width: 80%">
+  <label style="width: 100%">
+    <input style="width: 100%" [(ngModel)]="filterName" placeholder="Suche nach Backrezepten">
+  </label>
+</div>
+<div style="height: 87%">
+  <div class="container-lg" style="display: flex; flex-flow: wrap; height: 96%; max-width: 80%"
+       id="container">
+
+    <div *ngFor="let name of data | filterByName:filterName">
+      <div class="card" id="card" (click)="openRecipe(name)">
+        <img style="width: 250px; align-self: center; margin-top: 22px; border: 5px solid rgba(11, 156, 49, .5)"
+             src="{{name.recipe.image}}" class="card-img-top" alt="...">
+        <div class="card-body" style="display: flex; flex-direction: column; align-items: center;">
+          <h5 class="card-title">{{name.recipe.label}}</h5>
+          <div class="card-text" style="text-align: center;">
+            <b>Klicke</b> um das Rezept zu öffnen und direkt loszulegen.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
