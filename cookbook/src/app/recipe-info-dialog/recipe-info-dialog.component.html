@@ -1,0 +1,27 @@
+<div>
+<div class="modal-header" style="background-color: #364134 !important; color: white">
+  <h4 class="modal-title">Welche Informationen benötigen wir?</h4>
+  <button type="button" class="close" aria-label="Close"
+          (click)="activeModal.dismiss('Cross click')">
+    <span aria-hidden="true" style="color: white">&times;</span>
+  </button>
+</div>
+<div class="modal-body" style="overflow-x: hidden; overflow-y: auto">
+  <div class="card lesson-border">
+    <div class="card-body">
+      <div class="card-title">Ein <b>Bild</b>, um das Meisterwerk zu bewundern</div>
+      <div class="card-title">Die <b>Zutaten mit Mengenangaben</b></div>
+      <div class="card-title">Eine <b>Auflistung</b> der einzelnen <b>Zubereitungsschritte</b></div>
+      <div class="card-title"><b>Temperatur und Zeitangaben</b></div>
+      <div class="card-title">Und, wenn du möchtest, dass jeder weiß, wem man den Gaumenschmaus zu verdanken hat, <b>deinen Namen</b></div>
+      <div class="card-title">Und das Ganze sendet ihr einfach an:</div>
+      <div class="card-title" style="color: rgb(11, 156, 49);"><b>kochbuch-ccc@gmx.de</b></div>
+      <div class="card-title">Bald ist euer Rezept dann auch online!</div>
+    </div>
+  </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
+</div>
+
+</div>

@@ -13,6 +13,7 @@ import {FilterNamesStarter, StarterComponent} from './starter/starter.component'
 import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
+import { RecipeInfoDialogComponent } from './recipe-info-dialog/recipe-info-dialog.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {FormsModule} from '@angular/forms';
     FilterBakingNames,
     FilterNames,
     FilterDessertNames,
-    FilterNamesStarter
+    FilterNamesStarter,
+    RecipeInfoDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,7 @@ import {FormsModule} from '@angular/forms';
     NgbModule,
     FormsModule,
   ],
-  entryComponents: [RecipeDialogComponent],
+  entryComponents: [RecipeDialogComponent, RecipeInfoDialogComponent],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
