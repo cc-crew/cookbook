@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {RecipeInfoDialogComponent} from '../recipe-info-dialog/recipe-info-dialog.component';
+import {NgbModal} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-contact',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  constructor(private modalService: NgbModal) { }
 
   ngOnInit() {
   }
 
+  showRecipeInfo() {
+    this.modalService.open(RecipeInfoDialogComponent);
+  }
 }
