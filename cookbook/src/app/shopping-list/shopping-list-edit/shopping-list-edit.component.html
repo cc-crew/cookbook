@@ -1,6 +1,6 @@
 <div class="row">
+  <div style="font-size: 25px; margin-bottom: 10px;">Einkaufsliste</div>
   <form style="width: 100%;" (ngSubmit)="onSubmit(f)" #f="ngForm">
-
     <div>
       <label for="amount">Menge</label>
       <input style="color: #364134" id="amount" class="form-control" name="amount" placeholder="Menge..."
@@ -26,6 +26,10 @@
         <button style="color: #eeeeee !important;"
                 class="btn btn-recipe-book btn-recipe-book-danger" type="button" (click)="onDelete()"
                 *ngIf="editMode"><span class="glyphicon glyphicon-trash"></span> Löschen</button>
+      </div>
+    </div>
+    <div style="margin-top: 10px; display: flex; justify-content: center;">
+      <div class="btn-group shopping-list-btn-toolbar margin-bottom-20 recipe-box-shadow">
         <button style="color: #eeeeee !important;"
                 class="btn btn-recipe-book btn-recipe-book-primary" type="button" (click)="onClear()">
           <span class="glyphicon glyphicon-remove"></span> Abbrechen</button>

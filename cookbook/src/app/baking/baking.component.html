@@ -7,7 +7,6 @@ padding-bottom: 16px; max-width: 80%">
 <div style="height: 87%">
   <div class="container-lg" style="display: flex; flex-flow: wrap; height: 96%; max-width: 80%"
        id="container">
-
     <div *ngFor="let name of data | filterByName:filterName">
       <div class="card" id="card" (click)="openRecipe(name)">
         <img style="width: 250px; align-self: center; margin-top: 22px; border: 5px solid rgba(11, 156, 49, .5)"
