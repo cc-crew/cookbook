@@ -5,16 +5,15 @@ export default [
       image: 'https://www.edamam.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg',
       creator: 'Giesela Bauer',
       ingredientLines: [
-        '1/2 cup olive oil',
-        '5 cloves garlic, peeled',
-        '2 large russet potatoes, peeled and cut into chunks',
-        '1 3-4 pound chicken, cut into 8 pieces',
-        '3/4 cup white wine',
-        '3/4 cup chicken stock',
-        '3 tablespoons chopped parsley',
-        '1 tablespoon dried oregano',
-        'Salt and pepper',
-        '1 cup frozen peas, thawed'
+        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
+        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
+        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
+        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
+        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
+        {amount: '3', unit: 'cups', ingredient: 'flour' },
+        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
       ],
       instructions: [
         'Mehl und Zucker vermischen llllllllll hiuiuzhiuhiu iubiubiubiubiubiu jhuvu iuiubiubiub',
@@ -35,17 +34,15 @@ export default [
       image: 'https://www.edamam.com/web-img/e12/e12b8c5581226d7639168f41d126f2ff.jpg',
       creator: 'Manuel Maus',
       ingredientLines: [
-        '640 grams chicken - drumsticks and thighs',
-        '1/2 teaspoon salt',
-        '1/4 teaspoon black pepper',
-        '1 tablespoon butter – cultured unsalted (or olive oil)',
-        '240 grams onion sliced thin (1 large onion)',
-        '70 grams Anaheim pepper chopped (1 large pepper)',
-        '25 grams paprika (about 1/4 cup)',
-        '1 cup chicken stock',
-        '1/2 teaspoon salt',
-        '1/2 cup sour cream',
-        '1 tablespoon flour – all-purpose'
+        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
+        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
+        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
+        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
+        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
+        {amount: '3', unit: 'cups', ingredient: 'flour' },
+        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
       ],
       instructions: [
         'Mehl und Zucker vermischen',
@@ -66,10 +63,15 @@ export default [
       image: 'https://www.edamam.com/web-img/01c/01cacb70890274fb7b7cebb975a93231.jpg',
       creator: '',
       ingredientLines: [
-        '6 bone-in chicken breast halves',
-        '1/2 teaspoon coarse salt',
-        '1/2 teaspoon Mrs. Dash seasoning',
-        '1/4 teaspoon freshly ground black pepper'
+        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
+        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
+        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
+        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
+        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
+        {amount: '3', unit: 'cups', ingredient: 'flour' },
+        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
       ],
       instructions: [
         'Mehl und Zucker vermischen',

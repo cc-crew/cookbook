@@ -14,6 +14,8 @@ import {HashLocationStrategy, LocationStrategy} from '@angular/common';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {FormsModule} from '@angular/forms';
 import { RecipeInfoDialogComponent } from './recipe-info-dialog/recipe-info-dialog.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { RecipeInfoDialogComponent } from './recipe-info-dialog/recipe-info-dial
     FilterNames,
     FilterDessertNames,
     FilterNamesStarter,
-    RecipeInfoDialogComponent
+    RecipeInfoDialogComponent,
+    ShoppingListComponent,
+    ShoppingListEditComponent
   ],
   imports: [
     BrowserModule,

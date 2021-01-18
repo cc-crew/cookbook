@@ -15,7 +15,7 @@
 
       <div *ngFor="let name of recipe.recipe.ingredientLines">
         <li>
-          {{name}}
+          {{name.amount + ' ' + name.unit + ' ' + name.ingredient}}
         </li>
       </div>
       <h5 class="card-title" style="margin-top: 25px"><b>Zubereitung: </b></h5>
@@ -28,6 +28,8 @@
     </div>
   </div>
 </div>
+
 <div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark" (click)="onAddToShoppingList(recipe.recipe.ingredientLines)">Zur Einkaufliste hinzufügen</button>
   <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
 </div>

@@ -5,15 +5,15 @@ export default [
       image: 'https://www.edamam.com/web-img/88d/88d03a6bb95a504983828daee8c5d103.jpg',
       creator: 'Giesela Bauer',
       ingredientLines: [
-        '1 envelope unflavored gelatin',
-        '1/4 cup sweet liqueur, such as Chambord or Triple Sec',
-        '1 cup fat-free milk',
-        '3/4 cup sugar, divided',
-        '2 large eggs',
-        '4 ounces bittersweet (not unsweetened) chocolate, cut into 1/4-inch pieces',
-        '4 large egg whites',
-        'Large pinch of salt',
-        '6 stemmed glasses or ramekins for serving the mousse'
+        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
+        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
+        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
+        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
+        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
+        {amount: '3', unit: 'cups', ingredient: 'flour' },
+        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
       ],
       instructions: [
         'Mehl und Zucker vermischen llllllllll hiuiuzhiuhiu iubiubiubiubiubiu jhuvu iuiubiubiub',

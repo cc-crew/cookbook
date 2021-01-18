@@ -1,0 +1,12 @@
+<div style="height: 87%; margin-top: 50px; color: white">
+  <div class="container-lg" id="container"
+       style="display: grid; flex-flow: wrap; height: 96%; justify-content: center; overflow-x: hidden; overflow-y: auto">
+    <app-shopping-list-edit></app-shopping-list-edit>
+    <ul style="margin-top: 25px;" class="list-group">
+      <a style="color: #364134" class="list-group-item"
+         *ngFor="let ingredient of ingredients; let id = index" (click)="onEditItem(id)">
+        {{ ingredient.amount + ' ' + ingredient.unit + ' ' + ingredient.ingredient}}
+      </a>
+    </ul>
+  </div>
+</div>

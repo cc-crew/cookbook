@@ -1,0 +1,36 @@
+<div class="row">
+  <form style="width: 100%;" (ngSubmit)="onSubmit(f)" #f="ngForm">
+
+    <div>
+      <label for="amount">Menge</label>
+      <input style="color: #364134" id="amount" class="form-control" name="amount" placeholder="Menge..."
+             required ngModel
+             min="0">
+    </div>
+    <div>
+      <label for="unit">Einheit</label>
+      <input style="color: #364134" type="text" id="unit" class="form-control" name="unit" placeholder="Einheit, z.B.: g, liter"
+             required ngModel>
+    </div>
+    <div>
+      <label for="ingredient">Zutat</label>
+      <input style="color: #364134" type="text" id="ingredient" class="form-control" name="ingredient" placeholder="Name der Zutat"
+             required ngModel>
+    </div>
+
+    <div style="margin-top: 10px; display: flex; justify-content: center;">
+      <div class="btn-group shopping-list-btn-toolbar margin-bottom-20 recipe-box-shadow">
+        <button style="color: #eeeeee !important;" class="btn btn-recipe-book" type="submit">
+          <span class="glyphicon glyphicon-plus" [ngClass]="{'glyphicon-repeat': editMode}">
+          </span> {{ editMode ? 'Aktualisieren' : 'Hinzufügen' }}</button>
+        <button style="color: #eeeeee !important;"
+                class="btn btn-recipe-book btn-recipe-book-danger" type="button" (click)="onDelete()"
+                *ngIf="editMode"><span class="glyphicon glyphicon-trash"></span> Löschen</button>
+        <button style="color: #eeeeee !important;"
+                class="btn btn-recipe-book btn-recipe-book-primary" type="button" (click)="onClear()">
+          <span class="glyphicon glyphicon-remove"></span> Abbrechen</button>
+      </div>
+    </div>
+
+  </form>
+</div>

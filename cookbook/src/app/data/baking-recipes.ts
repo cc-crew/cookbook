@@ -5,15 +5,15 @@ export default [
       image: 'https://www.edamam.com/web-img/8af/8af000c5cce9ca42825290938904b4fa.jpg',
       creator: 'Giesela Bauer',
       ingredientLines: [
-        '18 tablespoons (2 1/4 sticks) unsalted butter, at room temperature',
-        '2 2/3 cups sugar',
-        '6 extra-large eggs, at room temperature',
-        '1 cup sour cream, at room temperature',
-        '1 1/2 teaspoons pure vanilla extract',
-        '3 cups all-purpose flour',
-        '1/3 cup cornstarch',
-        '1 teaspoon kosher salt',
-        '1 teaspoon baking soda'
+        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
+        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
+        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
+        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
+        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
+        {amount: '3', unit: 'cups', ingredient: 'flour' },
+        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
       ],
       instructions: [
         'Mehl und Zucker vermischen llllllllll hiuiuzhiuhiu iubiubiubiubiubiu jhuvu iuiubiubiub',

@@ -6,6 +6,7 @@ import {CookingComponent} from './cooking/cooking.component';
 import {BakingComponent} from './baking/baking.component';
 import {DessertComponent} from './dessert/dessert.component';
 import {ContactComponent} from './contact/contact.component';
+import {ShoppingListComponent} from './shopping-list/shopping-list.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   {path: 'cooking', component: CookingComponent},
   {path: 'baking', component: BakingComponent},
   {path: 'dessert', component: DessertComponent},
+  {path: 'shopping-list', component: ShoppingListComponent},
   {path: 'contact', component: ContactComponent}
 ];
 

@@ -5,15 +5,15 @@ export default [
       image: 'https://www.edamam.com/web-img/39d/39d0057a4b4a49d9023df472f82a55e0.jpg',
       creator: 'Hanna Bauer',
       ingredientLines: [
-        '4 large leek',
-        '1 1/4 pound yukon gold potatoes',
-        '4 cups chicken stock (may sub broth or water)',
-        '2 cups water',
-        '2 tablespoons butter (or olive oil if making vegan soup)',
-        '1/2 teaspoon salt',
-        '1/4 teaspoon dried thyme',
-        '1/4 teaspoon black pepper',
-        'Pinch red pepper flakes'
+        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
+        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
+        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
+        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
+        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
+        {amount: '3', unit: 'cups', ingredient: 'flour' },
+        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
+        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
       ],
       instructions: [
         'Mehl und Zucker vermischen llllllllll hiuiuzhiuhiu iubiubiubiubiubiu jhuvu iuiubiubiub',
