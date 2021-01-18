@@ -5,7 +5,7 @@
     <span aria-hidden="true" style="color: white">&times;</span>
   </button>
 </div>
-<div class="modal-body" style="height: calc(84vh - 50px); overflow-x: hidden; overflow-y: auto">
+<div class="modal-body" style="height: calc(74vh - 50px); overflow-x: hidden; overflow-y: auto">
   <div class="card lesson-border">
     <img class="card-img-top" style="width: 150px; align-self: center" src="{{recipe.recipe.image}}"
          alt="Card image cap">
@@ -32,4 +32,7 @@
 <div class="modal-footer">
   <button type="button" class="btn btn-outline-dark" (click)="onAddToShoppingList(recipe.recipe.ingredientLines)">Zur Einkaufliste hinzufügen</button>
   <button type="button" class="btn btn-outline-dark" (click)="activeModal.close('Close click')">Close</button>
+</div>
+<div *ngIf="toShoppingListAdded" class="alert alert-success" role="alert">
+  Wurde zur Einkaufsliste hinzugefügt.
 </div>

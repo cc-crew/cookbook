@@ -10,9 +10,11 @@ import {RecipeService} from '../recipe.service';
 export class RecipeDialogComponent {
 
   @Input() recipe: any;
+  toShoppingListAdded = false;
   constructor(public activeModal: NgbActiveModal, private recipeService: RecipeService) { }
 
   onAddToShoppingList(ingredientLines: any) {
     this.recipeService.addIngredientsToShoppingList(ingredientLines);
+    this.toShoppingListAdded = true;
   }
 }
