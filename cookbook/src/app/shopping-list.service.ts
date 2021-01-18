@@ -7,8 +7,7 @@ import {Subject} from 'rxjs';
 export class ShoppingListService {
   ingredientChanged = new Subject<any[]>();
   startedEditing = new Subject<number>();
-  private ingredients: any[] = [
-  ];
+  private ingredients: any[] = [];
   constructor() { }
 
   getIngredient(index: number) {
@@ -29,7 +28,11 @@ export class ShoppingListService {
   }
 
   addIngredient(ingredient: any) {
-    this.ingredients = JSON.parse(localStorage.getItem('ingredients'));
+    if (this.ingredients.length !== 0) {
+      this.ingredients = JSON.parse(localStorage.getItem('ingredients'));
+    } else {
+      this.ingredients = [];
+    }
     this.ingredients.push(ingredient);
     localStorage.setItem('ingredients', JSON.stringify(this.ingredients));
     this.ingredientChanged.next(this.ingredients.slice());
@@ -46,5 +49,11 @@ export class ShoppingListService {
     this.ingredients.splice(index, 1);
     this.ingredientChanged.next(this.ingredients.slice());
     localStorage.setItem('ingredients', JSON.stringify(this.ingredients));
+  }
+
+  deleteAllIngredients() {
+    localStorage.removeItem('ingredients');
+    this.ingredients = [];
+    this.ingredientChanged.next(this.ingredients.slice());
   }
 }
