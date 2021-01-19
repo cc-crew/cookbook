@@ -2,7 +2,7 @@
   <div class="container-lg" id="container"
        style="display: flex; flex-flow: wrap; height: 96%; justify-content: space-around; overflow-x: hidden; overflow-y: auto">
     <app-shopping-list-edit></app-shopping-list-edit>
-    <div style="height: 100%; overflow: scroll; background: #364134; overflow-x: hidden; overflow-y: auto;">
+    <div style="height: 100%; overflow: scroll; background: #364134; overflow-x: hidden; overflow-y: auto; width: 350px;">
       <ul class="list-group" style="padding-top: 15px;">
         <a style="color: #364134" class="list-group-item"
            *ngFor="let ingredient of ingredients; let id = index" (click)="onEditItem(id)">

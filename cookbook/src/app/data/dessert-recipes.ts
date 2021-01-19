@@ -1,31 +1,30 @@
 export default [
   {
     recipe: {
-      label: 'Easy Chocolate Mousse',
-      image: 'https://www.edamam.com/web-img/88d/88d03a6bb95a504983828daee8c5d103.jpg',
-      creator: 'Giesela Bauer',
+      label: 'Schwäbischer Stierrum/ Kaiserschmarrn',
+      image: './../assets/images/stierrum.png',
+      creator: '',
+      portions: '2-3 Portionen',
       ingredientLines: [
-        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
-        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
-        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
-        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
-        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
-        {amount: '3', unit: 'cups', ingredient: 'flour' },
-        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
-        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
-        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
+        {amount: '200', unit: 'gramm', ingredient: 'Mehl' },
+        {amount: '1', unit: 'EL', ingredient: 'Zucker' },
+        {amount: '1', unit: 'Priese', ingredient: 'Salz' },
+        {amount: '3', unit: 'St', ingredient: 'Eier' },
+        {amount: '', unit: '', ingredient: 'Milch' },
+        {amount: '', unit: '', ingredient: 'Puderzucker/ Apfelmus' }
       ],
       instructions: [
-        'Mehl und Zucker vermischen llllllllll hiuiuzhiuhiu iubiubiubiubiubiu jhuvu iuiubiubiub',
-        'Backofen vorheizen',
-        'Milch hinzugeben',
-        'Dann was andered',
-        'Was nächstes machen',
-        'In den Backofen schieben',
-        'Toppings zubereiten',
-        'Nach 60 min aud Backofen holen',
-        'Bestreuen',
-        'Am besten warm essen'
-      ]    }
+        'Die Eier trennen und Eiweiß steif schlagen.',
+        'Mehl, Zucker, Salz verrühren und Eigelb dazugeben.',
+        'Nach Bedarf Milch dazugeben und zu einem glatten Teig verrühren.',
+        'Den Teig ca. 10 Minuten ruhen lassen und anschließend das Eiweiß unterheben.',
+        'Etwas Fett in einer Pfanne erhitzen, dann die Hälfte vom Teig in die Pfanne gießen.',
+        'Temperatur herunterschalten und den Teig langsam stocken lassen.',
+        'Sobald der Teig an der Oberfläche gestockt ist, einmal komplett umdrehen.',
+        'Den Teig von der anderen Seite noch etwas bräunen lassen und währenddessen in gleichmäßige Stücke zerteilen.',
+        'Mit Puderzucker bestreut servieren und nach Bedarf Marmelade oder Apfelmus dazugeben.',
+        'Wer mag kann auch noch Rosinen in den Teig geben.'
+      ]
+    }
   }
 ];

@@ -4,6 +4,7 @@ export default [
       label: 'Golden Potato Leek Soup',
       image: 'https://www.edamam.com/web-img/39d/39d0057a4b4a49d9023df472f82a55e0.jpg',
       creator: 'Hanna Bauer',
+      portions: '2-3 Portionen',
       ingredientLines: [
         {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
         {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },

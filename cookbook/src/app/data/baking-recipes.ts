@@ -4,6 +4,7 @@ export default [
       label: 'Flower Cupcakes',
       image: 'https://www.edamam.com/web-img/8af/8af000c5cce9ca42825290938904b4fa.jpg',
       creator: 'Giesela Bauer',
+      portions: '2-3 Portionen',
       ingredientLines: [
         {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
         {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },

@@ -4,6 +4,7 @@ export default [
       label: 'Chicken Vesuvio',
       image: 'https://www.edamam.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg',
       creator: 'Giesela Bauer',
+      portions: '2-3 Portionen',
       ingredientLines: [
         {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
         {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
@@ -33,6 +34,7 @@ export default [
       label: 'Chicken Paprikash',
       image: 'https://www.edamam.com/web-img/e12/e12b8c5581226d7639168f41d126f2ff.jpg',
       creator: 'Manuel Maus',
+      portions: '2-3 Portionen',
       ingredientLines: [
         {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
         {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
@@ -62,6 +64,7 @@ export default [
       label: 'Baked Chicken',
       image: 'https://www.edamam.com/web-img/01c/01cacb70890274fb7b7cebb975a93231.jpg',
       creator: '',
+      portions: '2-3 Portionen',
       ingredientLines: [
         {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
         {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
