@@ -32,8 +32,8 @@ export default [
         'Zuletzt den Eischnee steif schlagen und vorsichtig unterrühren.',
         'Nun die Backform mit dem Mürbteig auslegen, dabei einen Rand von 2cm lassen.',
         'Die Quarkmasse darauf geben.',
-        'Nach Belieben können Mandarinen oder Sauerkirschen dazu gegeben werden.',
-        'Nun den Kuchen in der vorgeheizten Ofen auf der mittleren Schiene schieben.',
+        'Nach Belieben können Mandarinen oder Sauerkirschen in die Masse gegeben werden.',
+        'Nun den Kuchen in den vorgeheizten Ofen auf der mittleren Schiene schieben.',
         'Nach 55 min den Kuchen herausholen (die Oberfläche sollte goldgelb sein) und für mehrere Stunden in der Backform abkühlen lassen.',
       ]
     }
