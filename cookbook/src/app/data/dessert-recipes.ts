@@ -2,7 +2,7 @@ export default [
   {
     recipe: {
       label: 'Schwäbischer Stierrum/ Kaiserschmarrn',
-      image: './../assets/images/stierrum.png',
+      image: './assets/images/stierrum.png',
       creator: '',
       portions: '2-3 Portionen',
       ingredientLines: [

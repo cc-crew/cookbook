@@ -1,11 +1,11 @@
 <div class="container-lg" style="display: flex; flex-flow: wrap; text-align: center; padding-top: 16px;
-padding-bottom: 16px; max-width: 80%">
-  <label style="width: 100%">
+ max-width: 97%">
+  <label style="width: 100%; margin-bottom: 0 !important;">
     <input style="width: 100%" [(ngModel)]="filterName" placeholder="Suche nach Vorspeisen">
   </label>
 </div>
 <div style="height: 87%">
-  <div class="container-lg" style="display: flex; flex-flow: wrap; height: 96%; max-width: 80%"
+  <div class="container-lg" style="display: flex; flex-flow: wrap; height: 96%; max-width: 95%"
        id="container">
 
     <div *ngFor="let name of data | filterByName:filterName">

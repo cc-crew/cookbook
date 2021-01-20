@@ -16,7 +16,8 @@ body{
 }
 
 .nav-link.selected{
-  color: darkgray !important;
+  color: rgb(11, 156, 49) !important;
+  font-weight: bold !important;
 }
 
 input{
@@ -35,4 +36,7 @@ card{
 .btn-outline-dark:hover{
   color: white !important;
   background-color: #364134 !important;
+}
+.modal-dialog{
+  max-width: 800px !important;
 }
