@@ -59,5 +59,35 @@ export default [
         'Alles auf mittlerer Schiene im Backofen ca. 60 - 70 Minuten backen.'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Spaghetti Bolognese',
+      image: './assets/images/bolo.jpeg',
+      creator: '',
+      portions: '4-6 Portionen',
+      ingredientLines: [
+        {amount: '250', unit: 'g', ingredient: 'Rinderhackfleisch' },
+        {amount: '1', unit: '', ingredient: 'Zwiebel' },
+        {amount: '1', unit: 'St', ingredient: 'Ingwer (klein)' },
+        {amount: '1-2', unit: 'Zehen', ingredient: 'Knoblauch' },
+        {amount: '690', unit: 'g', ingredient: 'Passierte Tomaten' },
+        {amount: '250', unit: 'g', ingredient: 'Tomatenstücken' },
+        {amount: '', unit: '', ingredient: 'Salz' },
+        {amount: '', unit: '', ingredient: 'Gewürze nach Belieben (Pfeffer, Paprika, Mayoran, Thymian, etc.)' },
+        {amount: '500', unit: 'g', ingredient: 'Spaghetti' }
+      ],
+      instructions: [
+        'Zwiebeln, Ingwer und Knoblauch in kleine Würfel schneiden.',
+        'Diese in einer kalten Pfanne langsam erhitzen.',
+        'Alle gewünschten Kräuter hinzugeben und langsam ohne Fett glasig dünsten.',
+        'Rinderhack hinzu geben und anrösten.',
+        'Mit den passierten Toomaten und den Tomatenstücken ablöschen.',
+        '1-2 Std zimmern lassen, abschmecken und fertig.',
+        'Natürlich in der Zwischenzeit noch die Spaghetti nach Anleitung zubereiten',
+        'Tipp: Ein frischer Salat macht sich toll dazu.',
+        'Buon Appetito.'
+      ]
+    }
   }
 ];

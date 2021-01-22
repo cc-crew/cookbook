@@ -19,11 +19,18 @@ export class ShoppingListComponent implements OnInit {
       .subscribe(
         (Ingredients: any[]) => {
           this.ingredients = Ingredients;
+          this.ingredients.forEach(item => {
+            item.clicked = false;
+          });
         }
       );
   }
 
-  onEditItem(id: number) {
+  onEditItem(id: number, ingredient: any) {
     this.shoppingListService.startedEditing.next(id);
+    this.ingredients.forEach(ingre => {
+      ingre.clicked = false;
+    });
+    ingredient.clicked = true;
   }
 }

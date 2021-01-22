@@ -4,10 +4,14 @@
     <app-shopping-list-edit></app-shopping-list-edit>
     <div style="height: 100%; overflow: scroll; background: #364134; overflow-x: hidden; overflow-y: auto; width: 350px;">
       <ul class="list-group" style="padding-top: 15px;">
-        <a style="color: #364134" class="list-group-item"
-           *ngFor="let ingredient of ingredients; let id = index" (click)="onEditItem(id)">
-          {{ ingredient.amount + ' ' + ingredient.unit + ' ' + ingredient.ingredient}}
-        </a>
+        <li style="color: #364134" class="list-group-item"
+           *ngFor="let ingredient of ingredients; let id = index" (click)="onEditItem(id, ingredient)">
+          <div [ngStyle]="{'color': ingredient.clicked ? '#0b9c31': '#364134'}">
+            <div style="display: flex; align-items: center">
+            {{ ingredient.amount + ' ' + ingredient.unit + ' ' + ingredient.ingredient}}
+            </div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>

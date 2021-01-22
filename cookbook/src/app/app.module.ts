@@ -17,6 +17,7 @@ import { RecipeInfoDialogComponent } from './recipe-info-dialog/recipe-info-dial
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
 import { SupportYourLocalsComponent } from './support-your-locals/support-your-locals.component';
+import {ButtonsModule} from 'ngx-bootstrap/buttons';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { SupportYourLocalsComponent } from './support-your-locals/support-your-l
     AppRoutingModule,
     NgbModule,
     FormsModule,
+    ButtonsModule,
   ],
   entryComponents: [RecipeDialogComponent, RecipeInfoDialogComponent],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],

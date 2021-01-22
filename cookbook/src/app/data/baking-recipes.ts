@@ -133,5 +133,38 @@ export default [
         'Tipp: Den Teig müsst ihr nicht unbedingt vorher gehen lassen, ihr könnt damit auch direkt den Kuchenboden machen :)'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Einfacher Brandteig',
+      image: './assets/images/brandteig.jpeg',
+      creator: '',
+      portions: '1 Kuchen',
+      ingredientLines: [
+        {amount: '1/4', unit: 'l', ingredient: 'Wasser' },
+        {amount: '50', unit: 'g', ingredient: 'Butter oder Margarine' },
+        {amount: '1', unit: 'Prise', ingredient: 'Salz' },
+        {amount: '180', unit: 'g', ingredient: 'Mehl Typ 405 oder Dinkelmehl 630' },
+        {amount: '4-5', unit: 'St', ingredient: 'Eier M' }
+      ],
+      instructions: [
+        'Backofen auf 220°C vorheizen (Ober-/ Unterhitze)',
+        'Wasser, Butter und Salz in einem breiten Topf aufkochen..',
+        'Topf kurz vom Herd nehmen.',
+        'Das gesamte Mehl in die Flüssigkeit geben.',
+        'Sofort das Mehl zu einer glatten Masse einrühren bzw. verrühren.',
+        'Bei schwacher Hitze den Topf wieder auf die Herdplatte stellen.',
+        'So lange rühren bis ein Teigkloß entsteht und eine dünne weiße Schicht am Boden des Topfs entsteht -> daher übrigens der Name Brandteig, er wird angebrannt :).',
+        'Den Teigkloß in eine Schüssel geben, etwas den Dampf mit einem Handrühtgerät "ausrühren".',
+        'Erstes Ei hinzugeben und sofort kräftig in den Teig einrühren bis eine glatte Masse entsteht.',
+        'Auf die selbe Weise die anderen Eier hinzugeben --> Der Teig sollte dann schwer reißend vom Rührlöffel fallen.',
+        'Das Backblech mit Backfolie auslegen und dann kleine Teigportionen darauf verteilen, entweder mit einem kleinen Löffel oder eines Spritzbeutels.',
+        'Eine kleine Schüssel mit mit Wasser in den Backofen geben -> Wasserdampf lässt den Teig aufgehen.',
+        'Auf mittlerer Schiene bei 220°C das Backblech einschieben und 20-30 min goldgelb backen.',
+        'Wichtig: Den Backofen während der Backzeit nicht öffnen, sonst fällt alles zusammen.',
+        'Nach dem Erkalten mit Sahne, Obstquark etc. füllen.',
+        'Tipp: Auch salzige Variaten sind lecker :).',
+      ]
+    }
   }
 ];
