@@ -16,6 +16,7 @@ import {FormsModule} from '@angular/forms';
 import { RecipeInfoDialogComponent } from './recipe-info-dialog/recipe-info-dialog.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/shopping-list-edit.component';
+import { SupportYourLocalsComponent } from './support-your-locals/support-your-locals.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ShoppingListEditComponent } from './shopping-list/shopping-list-edit/sh
     FilterNamesStarter,
     RecipeInfoDialogComponent,
     ShoppingListComponent,
-    ShoppingListEditComponent
+    ShoppingListEditComponent,
+    SupportYourLocalsComponent
   ],
   imports: [
     BrowserModule,
