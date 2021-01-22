@@ -7,8 +7,12 @@
 </div>
 <div class="modal-body" style="height: calc(74vh - 50px); overflow-x: hidden; overflow-y: auto">
   <div class="card lesson-border">
-    <img class="card-img-top" style="width: 150px; align-self: center" src="{{recipe.recipe.image}}"
-         alt="Card image cap">
+    <div style="border: 5px solid rgba(11, 156, 49, .5); display: grid; background: rgba(11, 156, 49, .5);
+    margin-bottom: 15px; justify-content: center">
+      <img style="width: 250px;"
+           class="card-img-top" alt="..."
+           src="{{recipe.recipe.image}}">
+    </div>
     <div class="card-body">
       <p *ngIf="recipe.recipe.creator !==''" class="card-text"><b>Von: </b>{{recipe.recipe.creator}}</p>
       <h5 class="card-title"><b>Zutaten: </b></h5>

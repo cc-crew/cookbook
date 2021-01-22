@@ -1,92 +1,63 @@
 export default [
   {
     recipe: {
-      label: 'Chicken Vesuvio',
-      image: 'https://www.edamam.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg',
-      creator: 'Giesela Bauer',
-      portions: '2-3 Portionen',
+      label: 'Kartoffel-Brokkoli Auflauf mit Paprika',
+      image: './assets/images/auflauf.png',
+      creator: 'Silvia Müller',
+      portions: 'Für 2 Personen',
       ingredientLines: [
-        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
-        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
-        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
-        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
-        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
-        {amount: '3', unit: 'cups', ingredient: 'flour' },
-        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
-        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
-        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
+        {amount: '6', unit: 'St', ingredient: 'mittelgroße gekochte Kartoffeln' },
+        {amount: '1', unit: 'St', ingredient: 'kleiner Brokkoli' },
+        {amount: '1/2', unit: 'St', ingredient: 'rote Paprika' },
+        {amount: '1', unit: 'St', ingredient: 'kleine Zwiebel' },
+        {amount: '1', unit: 'Becher', ingredient: 'Sahne' },
+        {amount: '1', unit: 'St', ingredient: 'Ei' },
+        {amount: '', unit: '', ingredient: 'geriebener Käse' },
+        {amount: '', unit: '', ingredient: 'Gewürze nach Belieben' }
       ],
       instructions: [
-        'Mehl und Zucker vermischen llllllllll hiuiuzhiuhiu iubiubiubiubiubiu jhuvu iuiubiubiub',
-        'Backofen vorheizen',
-        'Milch hinzugeben',
-        'Dann was andered',
-        'Was nächstes machen',
-        'In den Backofen schieben',
-        'Toppings zubereiten',
-        'Nach 60 min aud Backofen holen',
-        'Bestreuen',
-        'Am besten warm essen'
-      ]    }
+        'Kartoffeln würfeln, Brokkoli in kleine Röschen teilen, Paprika würfeln in eine Auflaufform geben.',
+        'Zwiebel würfeln und andünsten.',
+        'Sahne und Ei zu den Zwiebeln geben mit Salz, Pfeffer, Paprika und Muskat würzen.',
+        'Über die Kartoffeln giesen mit Käse bestreuen.',
+        'Bei 160 Grad ca. 30 min backen',
+        'Guten Appetit :)'
+      ]
+    }
   },
   {
     recipe: {
-      label: 'Chicken Paprikash',
-      image: 'https://www.edamam.com/web-img/e12/e12b8c5581226d7639168f41d126f2ff.jpg',
-      creator: 'Manuel Maus',
-      portions: '2-3 Portionen',
-      ingredientLines: [
-        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
-        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
-        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
-        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
-        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
-        {amount: '3', unit: 'cups', ingredient: 'flour' },
-        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
-        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
-        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
-      ],
-      instructions: [
-        'Mehl und Zucker vermischen',
-        'Backofen vorheizen',
-        'Milch hinzugeben',
-        'Dann was andered',
-        'Was nächstes machen',
-        'In den Backofen schieben',
-        'Toppings zubereiten',
-        'Nach 60 min aud Backofen holen',
-        'Bestreuen',
-        'Am besten warm essen'
-      ]    }
-  },
-  {
-    recipe: {
-      label: 'Baked Chicken',
-      image: 'https://www.edamam.com/web-img/01c/01cacb70890274fb7b7cebb975a93231.jpg',
+      label: 'Hackbraten im Bacon-Mantel',
+      image: './assets/images/hackbraten.jpeg',
       creator: '',
-      portions: '2-3 Portionen',
+      portions: 'Für 1 Hackbraten',
       ingredientLines: [
-        {amount: '18', unit: 'tablespoons (2 1/4 sticks)', ingredient: 'unsalted butter at room temperature' },
-        {amount: '2 2/3', unit: 'cups', ingredient: 'sugar' },
-        {amount: '6', unit: 'pcs', ingredient: 'eggs at room temperature' },
-        {amount: '1', unit: 'cup', ingredient: 'sour cream at room temperature' },
-        {amount: '1 1/2', unit: 'teaspoons', ingredient: 'pure vanilla extract' },
-        {amount: '3', unit: 'cups', ingredient: 'flour' },
-        {amount: '1/3', unit: 'cups', ingredient: 'cornstarch' },
-        {amount: '1', unit: 'teaspoon', ingredient: 'kosher salt' },
-        {amount: '1', unit: 'teaspoon', ingredient: 'baking soda' }
+        {amount: '120', unit: 'g', ingredient: 'Semmelbrösel oder 2 Brötchen' },
+        {amount: '500', unit: 'g', ingredient: 'Hackfleisch, gemischt' },
+        {amount: '500', unit: 'g', ingredient: 'Rinderhackfleisch' },
+        {amount: '75', unit: 'g', ingredient: 'Zwiebeln' },
+        {amount: '1', unit: 'Zehe', ingredient: 'Knoblauch' },
+        {amount: '2', unit: 'St', ingredient: 'Eier' },
+        {amount: '1', unit: 'EL', ingredient: 'Senf' },
+        {amount: '1', unit: 'EL', ingredient: 'Sojasauce' },
+        {amount: '100', unit: 'g', ingredient: 'Chillisauce' },
+        {amount: '60', unit: 'ml', ingredient: 'Milch' },
+        {amount: '1', unit: 'EL', ingredient: 'Salz' },
+        {amount: '1/2', unit: 'EL', ingredient: 'Pfeffer' },
+        {amount: '1/2', unit: 'EL', ingredient: 'Paprikapulver' },
+        {amount: '200', unit: 'g', ingredient: 'Frühstücksspeck in Scheiben' },
+        {amount: '400', unit: 'ml', ingredient: 'Brühe' }
       ],
       instructions: [
-        'Mehl und Zucker vermischen',
-        'Backofen vorheizen',
-        'Milch hinzugeben',
-        'Dann was andered',
-        'Was nächstes machen',
-        'In den Backofen schieben',
-        'Toppings zubereiten',
-        'Nach 60 min aud Backofen holen',
-        'Bestreuen',
-        'Am besten warm essen'
-      ]    }
+        'Den Backofen auf 180°C vorheizen.',
+        'Die Brötchen vom Vortag (oder auch älter) in die lauwarme Milch einweichen. Wer keine Brötchen zur Hand hat, kann auch Semmelbrösel in etwas weniger Milch quellen lassen.',
+        'Die Zwiebeln würfeln und den Knoblauch hacken oder Pressen und in Butter anbraten, die Zwiebeln dürfen ruhig schön braun sein.',
+        'Die Brötchen ausdrücken und mit dem Hackfleisch, Eiern, Senf, Pfeffer und etwas Brühe vermischen.',
+        'Ruhig kräftig würzen, sonst ist der Braten später "lasch".',
+        'Dann die Zwiebeln und den Knoblauch dazu geben und einkneten.',
+        'Die Hackfleischmasse zu einem Laib formen und in einer geölten Auflaufform oder einem geölten Blech mit den Bacon-Scheiben (Frühstücksspeck) belegen.',
+        'Alles auf mittlerer Schiene im Backofen ca. 60 - 70 Minuten backen.'
+      ]
+    }
   }
 ];

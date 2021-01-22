@@ -2,7 +2,7 @@ export default [
   {
     recipe: {
       label: 'Käsekuchen',
-      image: './assets/images/kaesekuchen.jpg',
+      image: './assets/images/kaesekuchen1.jpg',
       creator: '',
       portions: '28cm Backform rund',
       ingredientLines: [
@@ -35,6 +35,102 @@ export default [
         'Nach Belieben können Mandarinen oder Sauerkirschen in die Masse gegeben werden.',
         'Nun den Kuchen in den vorgeheizten Ofen auf der mittleren Schiene schieben.',
         'Nach 55 min den Kuchen herausholen (die Oberfläche sollte goldgelb sein) und für mehrere Stunden in der Backform abkühlen lassen.',
+        'Viel Erfolg und lasst ihn euch schmecken :)'
+      ]
+    }
+  },
+  {
+    recipe: {
+      label: 'Käsekuchen wie vom Konditor',
+      image: './assets/images/kaesekuchen2.png',
+      creator: 'Silvia Müller',
+      portions: '28cm Backform rund',
+      ingredientLines: [
+        {amount: '250', unit: 'g', ingredient: 'Mehl (Mürbteig)' },
+        {amount: '125', unit: 'g', ingredient: 'Zucker (Mürbteig)' },
+        {amount: '1', unit: 'St', ingredient: 'Ei (Mürbteig)' },
+        {amount: '125', unit: 'g', ingredient: 'Butter (Mürbteig)' },
+        {amount: '1', unit: 'Päckchen', ingredient: 'Vanillezucker (Mürbteig)' },
+        {amount: '1', unit: 'MS', ingredient: 'Backpulver  (Mürbteig)' },
+
+        {amount: '500 ', unit: 'g', ingredient: 'Quark (Quarkmasse)' },
+        {amount: '400 ', unit: 'g', ingredient: 'Sahne (Quarkmasse)' },
+        {amount: '100 ', unit: 'g', ingredient: 'Zucker (Quarkmasse)' },
+        {amount: '2', unit: 'St', ingredient: 'Eier (Quarkmasse)' },
+        {amount: '40', unit: 'g', ingredient: 'Mehl (Quarkmasse)' },
+        {amount: '1', unit: 'Päckchen', ingredient: 'Vanillezucker (Quarkmasse)' }
+      ],
+      instructions: [
+        'Backofen auf 170-180°C vorheizen, ca. 1 Std Backzeit',
+        'Für den Teig: Alle Zutaten zu einem Teig kneten und in einer Backform auslegen.',
+
+        'Für die Quarkmasse: Mit dem Schneebesen alle Zutaten bis auf die Sahne zu einer glatten Masse rühren.',
+        '400 g Sahne steif schlagen und unterheben.',
+        'Die Masse in die mit Mürbeteig ausgelegte Form füllen und bei ca. 170 - 180 Grad ca.1 Stunde backen. ',
+        'Viel Erfolg und lasst ihn euch schmecken :)',
+      ]
+    }
+  },
+  {
+    recipe: {
+      label: 'Zwiebelkuchen (Teig mit Ei)',
+      image: './assets/images/zwiebelkuchen1.jpg',
+      creator: 'Roswitha Wagner',
+      portions: '1 Kuchen',
+      ingredientLines: [
+        {amount: '500', unit: 'g', ingredient: 'Mehl (Teig)' },
+        {amount: '2', unit: 'St', ingredient: 'Eier (Teig)' },
+        {amount: '100', unit: 'g', ingredient: 'Butter (Teig)' },
+        {amount: '30', unit: 'g', ingredient: 'Hefe (Teig)' },
+        {amount: '1/8', unit: 'l', ingredient: 'Milch (Teig)' },
+        {amount: '1', unit: 'Prise', ingredient: 'Salz (Teig)' },
+        {amount: '2', unit: 'kg', ingredient: 'Zwiebeln (Zwiebelmasse)' },
+        {amount: '50', unit: 'g', ingredient: 'Speckwürfel (Zwiebelmasse)' },
+        {amount: '1/4', unit: 'Becher', ingredient: 'saure Sahne (Zwiebelmasse)' },
+        {amount: '4', unit: 'St', ingredient: 'Eier (Zwiebelmasse)' },
+        {amount: '50', unit: 'g', ingredient: 'Mehl (Zwiebelmasse)' },
+        {amount: '', unit: '', ingredient: 'Salz & Pfeffer zum abschmecken (Zwiebelmasse)' }
+      ],
+      instructions: [
+        'Die Zutaten für den Teig miteinander verrühren und 30min gehen lassen.',
+        'Während der Teig geht, die Zwiebeln schneiden, in etwas Fett weich dünsten und in eine Schüssel umfüllen.',
+        'Speck kurz anbraten.',
+        'Die Eier mit der sauren Sahne, Mehl, etwas Salz und Pfeffer verrühren.',
+        'Speck damit ablöschen, die Zwiebeln dazu und kurz aufköchen lassen.',
+        'Teig auswellen und auf einem runden Blech einen kleinen Rand bilden.',
+        'Anschließend die Zwiebelmasse darauf und für 1h bei 220° in den Backofen.',
+        'Tipp: Den Teig müsst ihr nicht unbedingt vorher gehen lassen, ihr könnt damit auch direkt den Kuchenboden machen :)'
+      ]
+    }
+  },
+  {
+    recipe: {
+      label: 'Zwiebelkuchen (Teig ohne Ei)',
+      image: './assets/images/zwiebelkuchen1.jpg',
+      creator: 'Roswitha Wagner',
+      portions: '1 Kuchen',
+      ingredientLines: [
+        {amount: '400', unit: 'g', ingredient: 'Mehl (Teig)' },
+        {amount: '8', unit: 'EL', ingredient: 'Öl (Teig)' },
+        {amount: '1/4', unit: 'l', ingredient: 'Wasser (Teig)' },
+        {amount: '10', unit: 'g', ingredient: 'Hefe (Teig)' },
+        {amount: '1', unit: 'Prise', ingredient: 'Salz (Teig)' },
+        {amount: '2', unit: 'kg', ingredient: 'Zwiebeln (Zwiebelmasse)' },
+        {amount: '50', unit: 'g', ingredient: 'Speckwürfel (Zwiebelmasse)' },
+        {amount: '1/4', unit: 'Becher', ingredient: 'saure Sahne (Zwiebelmasse)' },
+        {amount: '4', unit: 'St', ingredient: 'Eier (Zwiebelmasse)' },
+        {amount: '50', unit: 'g', ingredient: 'Mehl (Zwiebelmasse)' },
+        {amount: '', unit: '', ingredient: 'Salz & Pfeffer zum abschmecken (Zwiebelmasse)' }
+      ],
+      instructions: [
+        'Die Zutaten für den Teig miteinander verrühren und 30min gehen lassen.',
+        'Während der Teig geht, die Zwiebeln schneiden, in etwas Fett weich dünsten und in eine Schüssel umfüllen.',
+        'Speck kurz anbraten.',
+        'Die Eier mit der sauren Sahne, Mehl, etwas Salz und Pfeffer verrühren.',
+        'Speck damit ablöschen, die Zwiebeln dazu und kurz aufköchen lassen.',
+        'Teig auswellen und auf einem runden Blech einen kleinen Rand bilden.',
+        'Anschließend die Zwiebelmasse darauf und für 1h bei 220° in den Backofen.',
+        'Tipp: Den Teig müsst ihr nicht unbedingt vorher gehen lassen, ihr könnt damit auch direkt den Kuchenboden machen :)'
       ]
     }
   }

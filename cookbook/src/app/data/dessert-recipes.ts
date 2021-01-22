@@ -26,5 +26,35 @@ export default [
         'Wer mag kann auch noch Rosinen in den Teig geben.'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Pancakes',
+      image: './assets/images/pancakes.png',
+      creator: '',
+      portions: 'ca. 12 Stück',
+      ingredientLines: [
+        {amount: '2', unit: 'Tassen', ingredient: 'Mehl' },
+        {amount: '2', unit: 'EL', ingredient: 'Zucker' },
+        {amount: '4', unit: 'TL', ingredient: 'Backpulver' },
+        {amount: '1', unit: 'TL', ingredient: 'Salz' },
+        {amount: '2', unit: 'St', ingredient: 'Eier (M)' },
+        {amount: '1 1/2', unit: 'Tassen', ingredient: 'Milch' },
+        {amount: '1/2', unit: 'Tasse', ingredient: 'Mineralwasser' },
+        {amount: '', unit: '', ingredient: 'Öl (für die Pfanne' },
+        {amount: '', unit: '', ingredient: 'Ahornsirup, Obst (nach Belieben)' }
+      ],
+      instructions: [
+        'Alle Zutaten, bis auf das Mineralwasser, in eine Schüssel geben und gut miteinander verrühren.',
+        'Etwas Öl in eine flache Pfanne geben und heiß werden lassen.',
+        'Jetzt das Mineralwasser in die Schüssel geben und vorsichtig unterheben – dadurch werden die Pancakes schön fluffig :)',
+        'Wenn das Öl heiß ist, den Herd etwas runter schalten und eine halbe Kelle Teig in die Mitte der Pfanne geben.',
+        'Verläuft der Teig zu sehr, etwas Mehl dazu geben und nochmals vorsichtig verrühren.',
+        'Den Pancake erst wenden, wenn die Blasen platzen und der Teig nicht mehr verläuft beim Unterschieben des Pfannenwenders',
+        'Kurz von der Gegenseite anbraten, bis er gleichmäßig braun ist. ',
+        'Mit Ahornsirup und frischem Obst servieren.',
+        'Tipp: Kein Öl nachschütten. Nach jedem Pancake die Pfanne kurz mit einer Küchenrolle nachwischen - die Pancakes werden sonst nicht gleichmäßig braun :)'
+      ]
+    }
   }
 ];

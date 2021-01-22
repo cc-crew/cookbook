@@ -9,8 +9,12 @@
        id="container">
     <div *ngFor="let name of data | filterByName:filterName">
       <div class="card" id="card" (click)="openRecipe(name)">
-        <img style="width: 250px; align-self: center; margin-top: 22px; border: 5px solid rgba(11, 156, 49, .5)"
-             src="{{name.recipe.image}}" class="card-img-top" alt="...">
+
+
+        <div class="image">
+          <img class="trick" alt="..."
+               src="{{name.recipe.image}}">
+        </div>
         <div class="card-body" style="display: flex; flex-direction: column; align-items: center;">
           <h5 style="text-align: center;" class="card-title">{{name.recipe.label}}</h5>
           <div class="card-text" style="text-align: center;">
