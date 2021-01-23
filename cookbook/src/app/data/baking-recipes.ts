@@ -9,17 +9,17 @@ export default [
         {amount: '250', unit: 'g', ingredient: 'Mehl (Mürbteig)' },
         {amount: '125', unit: 'g', ingredient: 'Butter/ Margarine (Raumtemperatur) (Mürbteig)' },
         {amount: '65', unit: 'g', ingredient: 'Zucker (Mürbteig)' },
-        {amount: '1', unit: 'St', ingredient: 'Ei (Raumtemperatur) (Mürbteig)' },
+        {amount: '1', unit: '', ingredient: 'Ei (Raumtemperatur) (Mürbteig)' },
         {amount: '1', unit: 'Prise', ingredient: 'Salz (Mürbteig)' },
         {amount: '100', unit: 'g', ingredient: 'weiche Butter/ Margarine (Quarkmasse)' },
         {amount: '200', unit: 'g', ingredient: 'Zucker (Quarkmasse)' },
         {amount: '1', unit: 'Päckchen', ingredient: 'Vanillezucker (Quarkmasse)' },
-        {amount: '5', unit: 'St', ingredient: 'große Eier (Quarkmasse)' },
+        {amount: '5', unit: '', ingredient: 'große Eier (Quarkmasse)' },
         {amount: '750', unit: 'g', ingredient: 'Magerquark (Quarkmasse)' },
         {amount: '3', unit: 'EL', ingredient: 'saure Sahne (Quarkmasse)' },
         {amount: '1/4', unit: 'l', ingredient: 'Milch (Quarkmasse)' },
         {amount: '80', unit: 'g', ingredient: 'Mondamin (Quarkmasse)' },
-        {amount: '1', unit: 'St', ingredient: 'Zitrone, der Saft (Quarkmasse)' }
+        {amount: '1', unit: '', ingredient: 'Zitrone, der Saft (Quarkmasse)' }
       ],
       instructions: [
         'Backform Ø 28cm, Backofen auf 160°C vorheizen (Ober-/ Unterhitze), 55 min Backzeit',
@@ -48,22 +48,20 @@ export default [
       ingredientLines: [
         {amount: '250', unit: 'g', ingredient: 'Mehl (Mürbteig)' },
         {amount: '125', unit: 'g', ingredient: 'Zucker (Mürbteig)' },
-        {amount: '1', unit: 'St', ingredient: 'Ei (Mürbteig)' },
+        {amount: '1', unit: '', ingredient: 'Ei (Mürbteig)' },
         {amount: '125', unit: 'g', ingredient: 'Butter (Mürbteig)' },
         {amount: '1', unit: 'Päckchen', ingredient: 'Vanillezucker (Mürbteig)' },
         {amount: '1', unit: 'MS', ingredient: 'Backpulver  (Mürbteig)' },
-
         {amount: '500 ', unit: 'g', ingredient: 'Quark (Quarkmasse)' },
         {amount: '400 ', unit: 'g', ingredient: 'Sahne (Quarkmasse)' },
         {amount: '100 ', unit: 'g', ingredient: 'Zucker (Quarkmasse)' },
-        {amount: '2', unit: 'St', ingredient: 'Eier (Quarkmasse)' },
+        {amount: '2', unit: '', ingredient: 'Eier (Quarkmasse)' },
         {amount: '40', unit: 'g', ingredient: 'Mehl (Quarkmasse)' },
         {amount: '1', unit: 'Päckchen', ingredient: 'Vanillezucker (Quarkmasse)' }
       ],
       instructions: [
         'Backofen auf 170-180°C vorheizen, ca. 1 Std Backzeit',
         'Für den Teig: Alle Zutaten zu einem Teig kneten und in einer Backform auslegen.',
-
         'Für die Quarkmasse: Mit dem Schneebesen alle Zutaten bis auf die Sahne zu einer glatten Masse rühren.',
         '400 g Sahne steif schlagen und unterheben.',
         'Die Masse in die mit Mürbeteig ausgelegte Form füllen und bei ca. 170 - 180 Grad ca.1 Stunde backen. ',
@@ -79,7 +77,7 @@ export default [
       portions: '1 Kuchen',
       ingredientLines: [
         {amount: '500', unit: 'g', ingredient: 'Mehl (Teig)' },
-        {amount: '2', unit: 'St', ingredient: 'Eier (Teig)' },
+        {amount: '2', unit: '', ingredient: 'Eier (Teig)' },
         {amount: '100', unit: 'g', ingredient: 'Butter (Teig)' },
         {amount: '30', unit: 'g', ingredient: 'Hefe (Teig)' },
         {amount: '1/8', unit: 'l', ingredient: 'Milch (Teig)' },
@@ -87,7 +85,7 @@ export default [
         {amount: '2', unit: 'kg', ingredient: 'Zwiebeln (Zwiebelmasse)' },
         {amount: '50', unit: 'g', ingredient: 'Speckwürfel (Zwiebelmasse)' },
         {amount: '1/4', unit: 'Becher', ingredient: 'saure Sahne (Zwiebelmasse)' },
-        {amount: '4', unit: 'St', ingredient: 'Eier (Zwiebelmasse)' },
+        {amount: '4', unit: '', ingredient: 'Eier (Zwiebelmasse)' },
         {amount: '50', unit: 'g', ingredient: 'Mehl (Zwiebelmasse)' },
         {amount: '', unit: '', ingredient: 'Salz & Pfeffer zum abschmecken (Zwiebelmasse)' }
       ],
@@ -118,7 +116,7 @@ export default [
         {amount: '2', unit: 'kg', ingredient: 'Zwiebeln (Zwiebelmasse)' },
         {amount: '50', unit: 'g', ingredient: 'Speckwürfel (Zwiebelmasse)' },
         {amount: '1/4', unit: 'Becher', ingredient: 'saure Sahne (Zwiebelmasse)' },
-        {amount: '4', unit: 'St', ingredient: 'Eier (Zwiebelmasse)' },
+        {amount: '4', unit: '', ingredient: 'Eier (Zwiebelmasse)' },
         {amount: '50', unit: 'g', ingredient: 'Mehl (Zwiebelmasse)' },
         {amount: '', unit: '', ingredient: 'Salz & Pfeffer zum abschmecken (Zwiebelmasse)' }
       ],
@@ -145,7 +143,7 @@ export default [
         {amount: '50', unit: 'g', ingredient: 'Butter oder Margarine' },
         {amount: '1', unit: 'Prise', ingredient: 'Salz' },
         {amount: '180', unit: 'g', ingredient: 'Mehl Typ 405 oder Dinkelmehl 630' },
-        {amount: '4-5', unit: 'St', ingredient: 'Eier M' }
+        {amount: '4-5', unit: '', ingredient: 'Eier M' }
       ],
       instructions: [
         'Backofen auf 220°C vorheizen (Ober-/ Unterhitze)',

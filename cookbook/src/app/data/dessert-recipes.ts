@@ -6,10 +6,10 @@ export default [
       creator: '',
       portions: '2-3 Portionen',
       ingredientLines: [
-        {amount: '200', unit: 'gramm', ingredient: 'Mehl' },
+        {amount: '200', unit: 'g', ingredient: 'Mehl' },
         {amount: '1', unit: 'EL', ingredient: 'Zucker' },
         {amount: '1', unit: 'Priese', ingredient: 'Salz' },
-        {amount: '3', unit: 'St', ingredient: 'Eier' },
+        {amount: '3', unit: '', ingredient: 'Eier' },
         {amount: '', unit: '', ingredient: 'Milch' },
         {amount: '', unit: '', ingredient: 'Puderzucker/ Apfelmus' }
       ],
@@ -38,7 +38,7 @@ export default [
         {amount: '2', unit: 'EL', ingredient: 'Zucker' },
         {amount: '4', unit: 'TL', ingredient: 'Backpulver' },
         {amount: '1', unit: 'TL', ingredient: 'Salz' },
-        {amount: '2', unit: 'St', ingredient: 'Eier (M)' },
+        {amount: '2', unit: '', ingredient: 'Eier (M)' },
         {amount: '1 1/2', unit: 'Tassen', ingredient: 'Milch' },
         {amount: '1/2', unit: 'Tasse', ingredient: 'Mineralwasser' },
         {amount: '', unit: '', ingredient: 'Öl (für die Pfanne' },
