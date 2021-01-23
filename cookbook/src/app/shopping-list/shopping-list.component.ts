@@ -27,14 +27,16 @@ export class ShoppingListComponent implements OnInit {
   }
 
   onEditItem(id: number, ingredient: any) {
-    this.shoppingListService.startedEditing.next(id);
     this.ingredients.forEach(ingre => {
       ingre.clicked = false;
     });
     ingredient.clicked = true;
+    this.shoppingListService.startedEditing.next(id);
   }
 
   orderAlphabetically(data: any[]) {
-    return data.sort((a, b) => a.ingredient.localeCompare(b.ingredient));
+    if (data !== null) {
+      return data.sort((a, b) => a.ingredient.localeCompare(b.ingredient));
+    }
   }
 }

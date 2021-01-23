@@ -45,3 +45,14 @@ card{
 .container-lg{
   height: auto !important;
 }
+
+
+.close{
+  float: right !important;
+  font-size: 2.0rem !important;
+  font-weight: 700 !important;
+  line-height: 2 !important;
+  color: #000 !important;
+  text-shadow: 0 1px 0 #fff !important;
+  opacity: .8 !important;
+}

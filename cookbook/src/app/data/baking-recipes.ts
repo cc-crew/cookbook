@@ -71,7 +71,7 @@ export default [
   },
   {
     recipe: {
-      label: 'Zwiebelkuchen (Teig mit Ei)',
+      label: 'Zwiebelkuchen',
       image: './assets/images/zwiebelkuchen1.jpg',
       creator: 'Roswitha Wagner',
       portions: '1 Kuchen',
@@ -81,37 +81,6 @@ export default [
         {amount: '100', unit: 'g', ingredient: 'Butter (Teig)' },
         {amount: '30', unit: 'g', ingredient: 'Hefe (Teig)' },
         {amount: '1/8', unit: 'l', ingredient: 'Milch (Teig)' },
-        {amount: '1', unit: 'Prise', ingredient: 'Salz (Teig)' },
-        {amount: '2', unit: 'kg', ingredient: 'Zwiebeln (Zwiebelmasse)' },
-        {amount: '50', unit: 'g', ingredient: 'Speckwürfel (Zwiebelmasse)' },
-        {amount: '1/4', unit: 'Becher', ingredient: 'saure Sahne (Zwiebelmasse)' },
-        {amount: '4', unit: '', ingredient: 'Eier (Zwiebelmasse)' },
-        {amount: '50', unit: 'g', ingredient: 'Mehl (Zwiebelmasse)' },
-        {amount: '', unit: '', ingredient: 'Salz & Pfeffer zum abschmecken (Zwiebelmasse)' }
-      ],
-      instructions: [
-        'Die Zutaten für den Teig miteinander verrühren und 30min gehen lassen.',
-        'Während der Teig geht, die Zwiebeln schneiden, in etwas Fett weich dünsten und in eine Schüssel umfüllen.',
-        'Speck kurz anbraten.',
-        'Die Eier mit der sauren Sahne, Mehl, etwas Salz und Pfeffer verrühren.',
-        'Speck damit ablöschen, die Zwiebeln dazu und kurz aufköchen lassen.',
-        'Teig auswellen und auf einem runden Blech einen kleinen Rand bilden.',
-        'Anschließend die Zwiebelmasse darauf und für 1h bei 220° in den Backofen.',
-        'Tipp: Den Teig müsst ihr nicht unbedingt vorher gehen lassen, ihr könnt damit auch direkt den Kuchenboden machen :)'
-      ]
-    }
-  },
-  {
-    recipe: {
-      label: 'Zwiebelkuchen (Teig ohne Ei)',
-      image: './assets/images/zwiebelkuchen1.jpg',
-      creator: 'Roswitha Wagner',
-      portions: '1 Kuchen',
-      ingredientLines: [
-        {amount: '400', unit: 'g', ingredient: 'Mehl (Teig)' },
-        {amount: '8', unit: 'EL', ingredient: 'Öl (Teig)' },
-        {amount: '1/4', unit: 'l', ingredient: 'Wasser (Teig)' },
-        {amount: '10', unit: 'g', ingredient: 'Hefe (Teig)' },
         {amount: '1', unit: 'Prise', ingredient: 'Salz (Teig)' },
         {amount: '2', unit: 'kg', ingredient: 'Zwiebeln (Zwiebelmasse)' },
         {amount: '50', unit: 'g', ingredient: 'Speckwürfel (Zwiebelmasse)' },

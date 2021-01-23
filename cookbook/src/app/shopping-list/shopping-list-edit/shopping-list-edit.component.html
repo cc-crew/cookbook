@@ -22,7 +22,7 @@
       <div class="btn-group shopping-list-btn-toolbar margin-bottom-20 recipe-box-shadow">
         <button style="color: #eeeeee !important; background: rgb(11, 156, 49) !important;" class="btn btn-recipe-book" type="submit">
           <span class="glyphicon glyphicon-plus" [ngClass]="{'glyphicon-repeat': editMode}">
-          </span> {{ editMode ? 'Aktualisieren' : 'Hinzufügen' }}</button>
+          </span> {{ editMode ? 'Aktualisieren' : 'Hinzufügen' }} </button>
         <button style="color: #eeeeee !important; background: rgb(11, 156, 49) !important;"
                 class="btn btn-recipe-book btn-recipe-book-danger" type="button" (click)="onDelete()"
                 *ngIf="editMode"><span class="glyphicon glyphicon-trash"></span> Löschen</button>

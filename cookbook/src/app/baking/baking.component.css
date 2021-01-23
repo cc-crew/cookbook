@@ -14,9 +14,7 @@
   background-size: 100% 1.3em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 12px;
+  margin: 20px 12px;
   cursor: pointer;
 }
 .image {
@@ -27,7 +25,6 @@
   border: 5px solid rgba(11, 156, 49, .5);
   display: grid;
   background: rgba(11, 156, 49, 0.5);
-  margin-bottom: 15px;
   justify-content: center;
 }
 img {

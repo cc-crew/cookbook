@@ -1,5 +1,8 @@
 <div class="modal-header" style="background-color: #364134 !important; color: white">
-  <h4 class="modal-title">{{recipe.recipe.label}} ({{recipe.recipe.portions}})</h4>
+  <div style="display: block;">
+    <h4 class="modal-title">{{recipe.recipe.label}}</h4>
+    <h4 class="modal-title" *ngIf="recipe.recipe.portions !== ''">({{recipe.recipe.portions}})</h4>
+  </div>
   <button type="button" class="close" aria-label="Close"
           (click)="activeModal.dismiss('Cross click')">
     <span aria-hidden="true" style="color: white">&times;</span>

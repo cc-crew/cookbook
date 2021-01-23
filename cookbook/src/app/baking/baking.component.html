@@ -9,8 +9,6 @@
        id="container">
     <div *ngFor="let name of orderRecipeAlphabetically(data) | filterByName:filterName">
       <div class="card" id="card" (click)="openRecipe(name)">
-
-
         <div class="image">
           <img class="trick" alt="..."
                src="{{name.recipe.image}}">
