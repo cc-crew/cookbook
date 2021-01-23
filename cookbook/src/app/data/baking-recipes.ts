@@ -234,9 +234,11 @@ export default [
         'Die Kuchen abkühlen lassen und nach ca. 10 min aus den Sprinformen nehmen. Komplett auskühlen lassen.',
         'Für die Creme die Schokolade in einem Wasserbad auf dem Herd unterrühren zum Schmelzen bringen. Die Schokolade abkühlen lassen.',
         'Die Butter cremig rühren und die abgekühlte Schokolade dazugeben. Die Creme Fraiche dazugeben. Zum Schluss den Puderzucker untersieben und alles gut vermischen.',
-        'Fertigstellung:  Einen der 3 Böden auf eine Kuchenplatte legen und mit der Creme bestreichen.',
-        ' Den nächsten Boden darauf legen und abwechselnd mit der Creme bestreichen.',
-        
+        'Fertigstellung: Einen der 3 Böden auf eine Kuchenplatte legen und mit der Creme bestreichen.',
+        'Den nächsten Boden darauf legen und abwechselnd mit der Creme bestreichen.',
+        'Am Ende den letzten Boden darauf geben und das Törtchen mit der weissen Creme rundum leicht bestreichen.',
+        'Die Karmellsoße auf das Törtchen geben und die Feigen und die Walnüsse darauf dekorieren.',
+        'Kaltstellen und genießen…'
       ]
     }
   }
