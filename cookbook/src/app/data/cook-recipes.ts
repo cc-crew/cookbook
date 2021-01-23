@@ -193,5 +193,41 @@ export default [
         'Schnell und lecker :).'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Veganes Gulasch',
+      image: './assets/images/gulasch.png',
+      creator: 'Thomas Erkenbrecher',
+      portions: '3-4 Portionen',
+      ingredientLines: [
+        {amount: '250', unit: 'g', ingredient: 'Soja Schnetzel (grob)' },
+        {amount: '2', unit: 'TL', ingredient: 'Hefeextrakt (z.B. Marmite) (Marinade)' },
+        {amount: '3', unit: 'EL', ingredient: 'Sojasauce (Marinade)' },
+        {amount: '3', unit: 'EL', ingredient: 'Balsamico Essig (Marinade)' },
+        {amount: '300', unit: 'ml', ingredient: 'Wasser (Marinade)' },
+        {amount: '3', unit: 'EL', ingredient: 'Olivenöl (Marinade)' },
+        {amount: '', unit: '', ingredient: 'Salz, Pfeffer (Marinade)' },
+        {amount: '7', unit: 'EL', ingredient: 'Tomatenmarkt (Marinade und Zubereitung)' },
+        {amount: '', unit: '', ingredient: 'Paprikapulver (Marinade und Zubereitung)' },
+        {amount: '', unit: '', ingredient: 'Kräuter (Zubereitung)' },
+        {amount: '2', unit: '', ingredient: 'Zwiebeln (Zubereitung)' },
+        {amount: '3', unit: '', ingredient: 'Knoblauchzehen (Zubereitung)' },
+        {amount: '2', unit: '', ingredient: 'rote Paprika (Zubereitung)' },
+        {amount: '500', unit: 'ml', ingredient: 'Rotwein (Zubereitung)' }
+
+      ],
+      instructions: [
+        'Für die Marinade einen Tag vorher anfagen: Hefeextrakt, Sojasauce, 4 EL Tomatenmark, Balsamico-Essig, 3 EL Olivenöl, 4 TL Paprikapulver, Salz, Pfeffer und Wasser zu einer Marinade rühren.',
+        'Die groben Soja Schnetzel unterheben und alles über Nacht ziehen lassen.',
+        'Zubereitung: Das Sojafleisch in Olivenöl ca. 5 Minuten scharf anbraten. Zwiebeln und Paprika hinzugeben und weitere 5 Minuten anbraten.',
+        '3 EL Tomatenmark unterrühren, dann den Knoblauch dazu.',
+        'Mit 3 TL Paprikapulver und Kräutern eurer Wahl würzen, dann mit Rotwein ablöschen.',
+        'Alles mindestens 30 Minuten köcheln lassen und gelegentlich rühren.',
+        'Dabei schrittweise Wasser hinzugeben, bis das Gulasch die gewünschte Konsistenz erreicht.',
+        'Wenn es zu flüssig wird, einfach länger einkochen lassen.',
+        'Nach Bedarf abschmecken und genießen.'
+      ]
+    }
   }
 ];

@@ -315,7 +315,42 @@ export default [
         'Deko: Abschließend könnt ihr die Bratapfeltorte mit etwas gemahlenem Zimt bestäuben und mit Zimtsternen dekorieren.',
         'Bis zum Servieren solltet ihr sie im Kühlschrank kalt stellen, damit die Creme anziehen kann.',
         'Viel Spaß beim Genießen :)'
-
+      ]
+    }
+  },
+  {
+    recipe: {
+      label: 'Dresdner Handbrotzeit',
+      image: './assets/images/handbrotzeit.png',
+      creator: '',
+      portions: '2 Laibe à 4 Stücke',
+      ingredientLines: [
+        {amount: '500', unit: 'g', ingredient: 'Mehl (Teig)' },
+        {amount: '1', unit: 'Würfel', ingredient: 'Hefe (Teig)' },
+        {amount: '300', unit: 'ml', ingredient: 'lauwarmes Wasser (Teig)' },
+        {amount: '150', unit: 'g', ingredient: 'geriebener Käse (Gouda oder Pizzakäse) (Füllung)' },
+        {amount: '100', unit: 'g', ingredient: 'Kochschinken (Füllung)' },
+        {amount: '1', unit: 'Packung', ingredient: 'frische Champignons (Füllung)' },
+        {amount: '200', unit: 'g', ingredient: 'saure Sahne (Füllung)' },
+        {amount: '200', unit: 'g', ingredient: 'Schmand (Füllung)' },
+        {amount: '', unit: '', ingredient: 'Frischer Schnittlauch (Füllung)' },
+      ],
+      instructions: [
+        'Für den Teig: Das Mehl abwiegen, etwas Salz dazugeben und in die Mitte eine kleine Mulde drücken in die ihr die Hefe bröckelt.',
+        'Das lauwarme Wasser komplett dazu gießen und für ein paar Minuten ruhen lassen.',
+        'Jetzt den Backofen auf 240 Grad vorheizen.',
+        'Mit einem Handrührgerät ordentlich durchkneten bis ein glatter und elastischer Teig entstanden ist, der sich leicht vom Schüsselrand lösen lässt.',
+        'An einem warmen Ort 50 Minuten gehen lassen.',
+        'Die Füllung: Die saure Sahne mit dem Schmand verrühren und mit Pfeffer, Salz und Knoblauch nach Belieben abschmecken.',
+        'Den frischen Schnittlauch fein schneiden und in eine extra Schüssel geben.',
+        'Schinken und Champignons in Scheiben schneiden.',
+        'Den aufgegangenen Teig in zwei gleiche Portionen teilen.',
+        'Eine Portion auf einer bemehlten Unterlage so ausrollen, dass ihr auf der einen Hälfte die Füllung (Schinken, Champignons und Käse) verteilen könnt.',
+        'Anschließend zusammenklappen und an den Rändern ordentlich zusammendrücken.',
+        'An den Stellen, an denen die Handbrote später getrennt werden sollen, könnt ihr euer Brot leicht einschneiden oder eine Sollbruchstelle eindrücken. Laib reicht für ca. 4 Stücke.',
+        'Mit der zweiten Portion Teig geht ihr auch so vor.',
+        'Das gefüllte Brot auf ein mit Backpapier ausgelegtes Backblech legen und für 20-30 Minuten in den Ofen geben.',
+        'Etwas abkühlen lassen, dann in die vorgegebenen Portionen teilen und zum Servieren jeweils einen Schlag Dip und frischen Schnittlauch darauf geben.'
       ]
     }
   }
