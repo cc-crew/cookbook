@@ -200,7 +200,7 @@ export default [
     recipe: {
       label: 'Herbstliche Apfeltörtchen mit Karamellsauce und Feigen',
       image: './assets/images/apfeltoertchen.jpeg',
-      creator: '',
+      creator: 'Sophie Wünsch',
       portions: 'ca. 12 Portionen bzw. 3 18cm Springformen',
       ingredientLines: [
         {amount: '6', unit: '', ingredient: 'Äpfel (Böden)' },
