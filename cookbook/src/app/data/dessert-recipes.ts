@@ -56,5 +56,31 @@ export default [
         'Tipp: Kein Öl nachschütten. Nach jedem Pancake die Pfanne kurz mit einer Küchenrolle nachwischen - die Pancakes werden sonst nicht gleichmäßig braun :)'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Müsli',
+      image: './assets/images/muesli.jpeg',
+      creator: '',
+      portions: 'Für 3-4 Personen',
+      ingredientLines: [
+        {amount: '120', unit: 'g', ingredient: 'Hafer' },
+        {amount: '4', unit: '', ingredient: 'Äpfel (2 davon grün - säuerlich)' },
+        {amount: '4', unit: '', ingredient: 'Bananen' },
+        {amount: '1/2 - 1', unit: '', ingredient: 'Zitrone' },
+        {amount: '50', unit: 'g', ingredient: 'Sahne' },
+        {amount: '', unit: '', ingredient: 'Ganze Mandeln (im Mixer zerkleinern)' }
+      ],
+      instructions: [
+        'Hafer aufschroten und umfüllen.',
+        'In einer Schüssel mit lauwarmem Wasser zu einem "Brei" anrühren. Sie sollte groß genug sein, um noch Obst hinzuzugeben.',
+        'Den Brei einweichen lassen bis die anderen Zutaten vorbereitet sind.',
+        '2 Bananen und 2 Äpfel in den Mixer geben und zerkleinern.',
+        'Die restlichen Äpfel und Bananen klein schneiden.',
+        'Dann alles in die Schüssel mit dem Hafer geben.',
+        'Zitronensaft und Sahne untermischen',
+        'Zum Schluss mit den zerkleinerten Mandeln bestreuen und genießen.'
+      ]
+    }
   }
 ];
