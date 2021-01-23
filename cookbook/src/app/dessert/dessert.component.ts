@@ -23,6 +23,9 @@ export class DessertComponent implements OnInit {
     const modalRef = this.modalService.open(RecipeDialogComponent);
     modalRef.componentInstance.recipe = name;  }
 
+  orderRecipeAlphabetically(data: any[]) {
+    return data.sort((a, b) => a.recipe.label.localeCompare(b.recipe.label));
+  }
 }
 
 @Pipe({name: 'filterByName'})

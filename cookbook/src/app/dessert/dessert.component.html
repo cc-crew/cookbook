@@ -8,7 +8,7 @@
   <div class="container-lg" style="display: flex; flex-flow: wrap; height: 96%; max-width: 95%"
        id="container">
 
-    <div *ngFor="let name of data | filterByName:filterName">
+    <div *ngFor="let name of orderRecipeAlphabetically(data) | filterByName:filterName">
       <div class="card" id="card" (click)="openRecipe(name)">
         <div class="image">
           <img class="trick" alt="..."
