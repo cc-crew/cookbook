@@ -147,7 +147,7 @@ export default [
       ],
       instructions: [
         'Backofen auf 220°C vorheizen (Ober-/ Unterhitze)',
-        'Wasser, Butter und Salz in einem breiten Topf aufkochen..',
+        'Wasser, Butter und Salz in einem breiten Topf aufkochen.',
         'Topf kurz vom Herd nehmen.',
         'Das gesamte Mehl in die Flüssigkeit geben.',
         'Sofort das Mehl zu einer glatten Masse einrühren bzw. verrühren.',
@@ -162,6 +162,37 @@ export default [
         'Wichtig: Den Backofen während der Backzeit nicht öffnen, sonst fällt alles zusammen.',
         'Nach dem Erkalten mit Sahne, Obstquark etc. füllen.',
         'Tipp: Auch salzige Variaten sind lecker :).',
+      ]
+    }
+  },
+  {
+    recipe: {
+      label: 'Johannisbeer Kuchen',
+      image: './assets/images/johannisbeerkuchen.jpeg',
+      creator: '',
+      portions: '1 Kuchen, runde Form',
+      ingredientLines: [
+        {amount: '300', unit: 'g', ingredient: 'Mehl (Kuchenboden)' },
+        {amount: '1/2', unit: 'Päckchen', ingredient: 'Backpulver (Kuchenboden)' },
+        {amount: '200', unit: 'g', ingredient: 'Butter (Kuchenboden)' },
+        {amount: '90', unit: 'g', ingredient: 'Puderzucker (Kuchenboden)' },
+        {amount: '1', unit: 'Päckchen', ingredient: 'Vanillezucker (Kuchenboden)' },
+        {amount: '1', unit: 'Prise', ingredient: 'Salz (Kuchenboden)' },
+        {amount: '3', unit: '', ingredient: 'Eier - Eigelb für Kuchenboden, Eiweiß für Füllung' },
+        {amount: '3', unit: 'EL', ingredient: 'Zucker (Füllung)' },
+        {amount: '1', unit: 'Päckchen', ingredient: 'Vanillepuddung Pulver (Füllung)' },
+        {amount: '350', unit: 'g', ingredient: 'Johannisbeeren (Füllung)' }
+      ],
+      instructions: [
+        'Backofen auf 180°C, Backzeit ca. 40min',
+        'Für den Kuchenboden: Die Eier trennen und das Eigelb für den Kuchenboden verwenden. Das Eiweiß braucht ihr dann für die Füllung.',
+        'Alle Zutaten des Kuchenbodens vermengen und kneten (nicht zu lange).',
+        'Den Teig dann 30min ziehen lassen.',
+        'Daraufhin den Teig ausrollen und in die Kuchenform geben, dabei einen Rand lassen.',
+        'Für die Füllung: Das Eiweiß schaumig schlagen.',
+        'Den Zucker und das Vanillepuddig Pulver dazu geben.',
+        'Mit den Johannisbeeren vermischen und in die fertige Form geben.',
+        'Bei 180°C für ca. 40min backen.'
       ]
     }
   }
