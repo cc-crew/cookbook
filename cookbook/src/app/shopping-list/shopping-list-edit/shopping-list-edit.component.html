@@ -1,5 +1,5 @@
 <div>
-  <div style="font-size: 25px; margin-bottom: 10px;">Einkaufsliste</div>
+  <div style="font-size: 25px; margin-bottom: 10px; color: rgb(11, 156, 49);">Einkaufsliste</div>
   <form style="width: 100%; margin-bottom: 25px" (ngSubmit)="onSubmit(f)" #f="ngForm">
     <div>
       <label for="amount">Menge</label>
@@ -20,20 +20,20 @@
 
     <div style="margin-top: 10px; display: flex; justify-content: center;">
       <div class="btn-group shopping-list-btn-toolbar margin-bottom-20 recipe-box-shadow">
-        <button style="color: #eeeeee !important;" class="btn btn-recipe-book" type="submit">
+        <button style="color: #eeeeee !important; background: rgb(11, 156, 49) !important;" class="btn btn-recipe-book" type="submit">
           <span class="glyphicon glyphicon-plus" [ngClass]="{'glyphicon-repeat': editMode}">
           </span> {{ editMode ? 'Aktualisieren' : 'Hinzufügen' }}</button>
-        <button style="color: #eeeeee !important;"
+        <button style="color: #eeeeee !important; background: rgb(11, 156, 49) !important;"
                 class="btn btn-recipe-book btn-recipe-book-danger" type="button" (click)="onDelete()"
                 *ngIf="editMode"><span class="glyphicon glyphicon-trash"></span> Löschen</button>
       </div>
     </div>
     <div style="margin-top: 10px; display: flex; justify-content: center;">
       <div class="btn-group shopping-list-btn-toolbar margin-bottom-20 recipe-box-shadow">
-        <button style="color: #eeeeee !important;"
+        <button style="color: #eeeeee !important; background: rgb(11, 156, 49) !important;"
                 class="btn btn-recipe-book btn-recipe-book-primary" type="button" (click)="onClear()">
           <span class="glyphicon glyphicon-remove"></span> Abbrechen</button>
-        <button style="color: #eeeeee !important;"
+        <button style="color: #eeeeee !important; background: rgb(11, 156, 49) !important;"
                 class="btn btn-recipe-book btn-recipe-book-primary" type="button" (click)="onDeleteAll()">
           <span class="glyphicon glyphicon-remove"></span> Einkaufsliste löschen</button>
       </div>

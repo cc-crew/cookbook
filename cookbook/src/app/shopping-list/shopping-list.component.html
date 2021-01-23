@@ -2,8 +2,8 @@
   <div class="container-lg" id="container"
        style="display: flex; flex-flow: wrap; height: 96%; max-width: 95%; justify-content: space-around; overflow-x: hidden; overflow-y: auto">
     <app-shopping-list-edit></app-shopping-list-edit>
-    <div style="height: 100%; overflow: scroll; background: #364134; overflow-x: hidden; overflow-y: auto; width: 350px;">
-      <ul class="list-group" style="padding-top: 15px;">
+    <div style="background: #364134; width: 350px;">
+      <ul class="list-group" style="margin-top: 15px; overflow-y: auto; height: 50vw;">
         <li style="color: #364134" class="list-group-item"
            *ngFor="let ingredient of orderAlphabetically(ingredients); let id = index" (click)="onEditItem(id, ingredient)">
           <div [ngStyle]="{'color': ingredient.clicked ? '#0b9c31': '#364134'}">
