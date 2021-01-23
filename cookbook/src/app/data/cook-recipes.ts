@@ -124,5 +124,42 @@ export default [
         'Lasst es euch schmecken.'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'One Pot Burrito Bowl',
+      image: './assets/images/burritobowl.jpeg',
+      creator: '',
+      portions: 'Für 4 Portionen',
+      ingredientLines: [
+        {amount: '500', unit: 'g', ingredient: 'Hähnchenbrust' },
+        {amount: '600', unit: 'ml', ingredient: 'Hühnerbrühe' },
+        {amount: '200', unit: 'g', ingredient: 'Langkornreis' },
+        {amount: '1', unit: 'Dose', ingredient: 'Mais' },
+        {amount: '1', unit: 'Dose', ingredient: 'Kidneybohnen, rot' },
+        {amount: '1', unit: 'Dose', ingredient: 'Tomaten, stückige' },
+        {amount: '1', unit: 'Becher', ingredient: 'saure Sahne' },
+        {amount: '150', unit: 'g', ingredient: 'Gouda, gerieben' },
+        {amount: '1', unit: 'Bund', ingredient: 'Frühlingszwiebeln' },
+        {amount: '2', unit: '', ingredient: 'Tomate(n)' },
+        {amount: '1', unit: '', ingredient: 'Zwiebel' },
+        {amount: '', unit: '', ingredient: 'Gewürzmischung, mexikanisch, z. B. Taco-Gewürz' },
+        {amount: '', unit: '', ingredient: 'Olivenöl' }
+      ],
+      instructions: [
+        'Die Zwiebel würfeln und in etwas Olivenöl in einer tiefen Pfanne oder einem Wok anschwitzen.',
+        'Die Hähnchenbrust in kleine Stücke schneiden und mit den Zwiebeln anbraten.',
+        'Hühnerbrühe, gehackte Tomaten, Mais und Kidneybohnen hinzugeben und mit mexikanischem Gewürz nach Belieben würzen.',
+        'Anschließend zum Kochen bringen.',
+        'Den Reis so hinzugeben, dass er komplett mit der Brühe bedeckt ist und köcheln lassen, bis er die Flüssigkeit aufgesogen hat.',
+        'Von der Kochstelle nehmen und mit dem Gouda bestreuen.',
+        'Den Deckel auflegen und warten, bis der Gouda zerlaufen ist.',
+        'Die saure Sahne durchrühren und in Klecksen auf den Käse geben.',
+        'Die Tomaten waschen, würfeln und über die saure Sahne geben.',
+        'Die Frühlingszwiebeln putzen und in dünne Ringe schneiden.',
+        'Die Hälfte über die saure Sahne geben und die andere Hälfte in einer kleinen Schüssel mit auf den Tisch stellen, damit man sich nach Belieben nachholen kann.',
+        'Guten Appetit :)'
+      ]
+    }
   }
 ];
