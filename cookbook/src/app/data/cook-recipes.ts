@@ -169,10 +169,28 @@ export default [
       creator: '',
       portions: 'Für 4 Personen',
       ingredientLines: [
-        {amount: '', unit: '', ingredient: '' }
+        {amount: '', unit: '', ingredient: 'Dinkelmehl, gemahlene Haferflocken, Eier, Hafermilch/Milch, Salz für den Pfannkuchenteig' },
+        {amount: '1/2', unit: '', ingredient: 'Zucchini (Füllung)' },
+        {amount: '1/2', unit: '', ingredient: 'Aubergine (Füllung)' },
+        {amount: '1', unit: '', ingredient: 'rote Paprika (Füllung)' },
+        {amount: '1', unit: '', ingredient: 'große Karotte (Füllung)' },
+        {amount: '4', unit: '', ingredient: 'Pilze (Füllung)' },
+        {amount: '1', unit: 'Bund', ingredient: 'Frühlingszwiebeln (Füllung)' },
+        {amount: '1', unit: '', ingredient: 'kleine Dose Mais (Füllung)' },
+        {amount: '', unit: '', ingredient: 'etwas Tomatenmark (Füllung)' },
+        {amount: '', unit: '', ingredient: 'Sahne oder Milch (zum Ablöschen)' },
+        {amount: '', unit: '', ingredient: 'geriebener Käse (zum Bestreuen)' },
+        {amount: '', unit: '', ingredient: 'Olivenöl (zum Andünsten)' },
+        {amount: '', unit: '', ingredient: 'Gewürze: Salz, Pfeffer, Kurkuma (Füllung)' }
       ],
       instructions: [
-        ''
+        'Zunächst aus den Zutaten für die Pfannkuchen einen Teig herstellen und Pfannkuchen in einer Pfanne zubereiten',
+        'Das Gemüse in Olivenöl andünsten, immer wieder mit Sahne oder Milch ablöschen und würzen.',
+        'Die Pfannkuchen mit dem Gemüse füllen, aufrollen und in die Auflaufform legen.',
+        'Die restliche Brühe vom Gemüse – wenn vorhanden- und etwas Sahne/Milch darübergeben.',
+        'Ebenso die Kräuterlinge, Petersilie und den geriebenen Käse.',
+        'Ca. 20 Minuten bei 180 Grad in den Backofen und fertig.',
+        'Schnell und lecker :).'
       ]
     }
   }
