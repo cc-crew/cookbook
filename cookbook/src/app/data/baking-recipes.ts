@@ -195,5 +195,49 @@ export default [
         'Bei 180°C für ca. 40min backen.'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Herbstliche Apfeltörtchen  mit Karamellsauce und Feigen',
+      image: './assets/images/apfeltoertchen.jpeg',
+      creator: '',
+      portions: 'ca. 12 Portionen bzw. 3 18cm Springformen',
+      ingredientLines: [
+        {amount: '6', unit: '', ingredient: 'Äpfel (Böden)' },
+        {amount: '2', unit: 'EL', ingredient: 'Zitronensaft (Böden)' },
+        {amount: '260', unit: 'g', ingredient: 'Butter (Böden)' },
+        {amount: '1', unit: '', ingredient: 'Vanille-Schote (Böden)' },
+        {amount: '225', unit: 'g', ingredient: 'Zucker (Böden)' },
+        {amount: '5', unit: '', ingredient: 'Eier (Böden)' },
+        {amount: '490', unit: 'g', ingredient: 'Mehl (Böden)' },
+        {amount: '1', unit: 'Päckchen', ingredient: 'Backpulver (Böden)' },
+        {amount: '240', unit: 'ml', ingredient: 'Buttermilch (Böden)' },
+        {amount: '1', unit: 'Packung', ingredient: 'Marzipan-Rohmasse (200 Gramm) (Böden)' },
+        {amount: '130', unit: 'g', ingredient: 'Puderzucker (Böden)' },
+        {amount: '125', unit: 'g', ingredient: 'Butter (Füllung)' },
+        {amount: '100', unit: 'g', ingredient: 'weiße Schokolade (Füllung)' },
+        {amount: '3', unit: 'EL', ingredient: ' Crème fraîche (Füllung)' },
+        {amount: '300', unit: 'g', ingredient: ' Puderzucker (Füllung)' },
+        {amount: '6-8', unit: '', ingredient: ' Feigen (Deko)' },
+        {amount: '100', unit: 'g', ingredient: ' Walnüsse (Deko)' },
+        {amount: '', unit: '', ingredient: ' Karamellsoße (z.B. fertige von Bonne Maman) (Deko)' }
+      ],
+      instructions: [
+        'Die Springformen einfetten und die Böden mit Backpapier auskleiden. Den Backofen auf 150 Grad vorheizen.',
+        'Die Äpfel waschen, entkernen und in kleine Stücke schneiden. Die Apfelstücke mit dem Zitronensaft vermischen.',
+        'Butter, das Mark einer Vanillenschote und den Zucker verrühren.',
+        'Die Eier dazugeben und alles cremig rühren.',
+        'Das Mehl mit dem Backpulver mischen und abwechselnd mit der Buttermilch zu dem Teig geben.',
+        'Die Marzipan Rohmasse in den Teig reiben und den Puderzucker dazumischen.',
+        'Zum Schluss die Äpfel unterheben und den Teig auf die 3 Springformen aufteilen.',
+        'Die Springformen entweder zusammen, oder nacheinander in den Ofen geben (für 50 min, danach die Kuchen mit Alufolie bedecken und dann für weitere 15-20 min in den Ofen geben). Der Kuchen muss also ca. 1 1/4 Std. backen.',
+        'Die Kuchen abkühlen lassen und nach ca. 10 min aus den Sprinformen nehmen. Komplett auskühlen lassen.',
+        'Für die Creme die Schokolade in einem Wasserbad auf dem Herd unterrühren zum Schmelzen bringen. Die Schokolade abkühlen lassen.',
+        'Die Butter cremig rühren und die abgekühlte Schokolade dazugeben. Die Creme Fraiche dazugeben. Zum Schluss den Puderzucker untersieben und alles gut vermischen.',
+        'Fertigstellung:  Einen der 3 Böden auf eine Kuchenplatte legen und mit der Creme bestreichen.',
+        ' Den nächsten Boden darauf legen und abwechselnd mit der Creme bestreichen.',
+        
+      ]
+    }
   }
 ];
