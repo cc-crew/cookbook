@@ -89,5 +89,40 @@ export default [
         'Buon Appetito.'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Knuspriges Hühnchen „süß-sauer“ a La Steffen Henssler',
+      image: './assets/images/haehnchen.jpg',
+      creator: '',
+      portions: 'Für 2 Personen',
+      ingredientLines: [
+        {amount: '2', unit: '', ingredient: 'Hähnchenbrüste' },
+        {amount: '2', unit: '', ingredient: 'Eiweiß' },
+        {amount: '4', unit: 'EL', ingredient: 'Maisstärke' },
+        {amount: '1', unit: 'St', ingredient: 'rote Zwiebel' },
+        {amount: '1', unit: 'St', ingredient: 'rote Paprika' },
+        {amount: '1', unit: 'St', ingredient: 'Karotte' },
+        {amount: '1/2', unit: 'Bund', ingredient: 'Koriander' },
+        {amount: '1', unit: 'Zehe', ingredient: 'Knoblauch' },
+        {amount: '4', unit: 'cl', ingredient: 'Essig' },
+        {amount: '8', unit: 'cl', ingredient: 'Sojasauce' },
+        {amount: '2', unit: 'EL', ingredient: 'Zucker' },
+        {amount: '', unit: '', ingredient: 'Stärke' },
+        {amount: '', unit: '', ingredient: 'Salz' },
+        {amount: '', unit: '', ingredient: 'Rapsöl' },
+        {amount: '', unit: '', ingredient: 'Reis' }
+      ],
+      instructions: [
+        'Die Hähnchenbrust in grobe Würfel schneiden und in eine Schale geben. Salzen und etwas Eiweiß, sowie Maisstärke hinzugeben. Alles durchmengen und in reichlich Rapsöl in einem Topf knusprig backen.',
+        'Währenddessen rote Zwiebel sowie rote Paprika schneiden.  Die Karotte ebenfalls dünn runterschneiden. Etwas Chili und Knoblauch schneiden.',
+        'Das Hühnchen aus dem Öl nehmen und auf einem Küchenpapier abtropfen lassen.',
+        'Das Gemüse nun in einer Pfanne bei hoher Temperatur anbraten.',
+        'Nach ca. 3 Minuten Zucker, Sojasauce, Essig dazugeben und kurz einkochen lassen.',
+        'Etwas Stärke dazugeben. Wenn es bindet, das Hähnchen und geschnittenen Koriander mit in die Pfanne geben und alles durchschwenken.',
+        'Den Reis zubereiten, fertig.',
+        'Lasst es euch schmecken.'
+      ]
+    }
   }
 ];

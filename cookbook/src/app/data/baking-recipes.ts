@@ -44,7 +44,7 @@ export default [
       label: 'Käsekuchen wie vom Konditor',
       image: './assets/images/kaesekuchen2.png',
       creator: 'Silvia Müller',
-      portions: '28cm Backform rund',
+      portions: 'Backform rund',
       ingredientLines: [
         {amount: '250', unit: 'g', ingredient: 'Mehl (Mürbteig)' },
         {amount: '125', unit: 'g', ingredient: 'Zucker (Mürbteig)' },
@@ -139,7 +139,7 @@ export default [
       label: 'Einfacher Brandteig',
       image: './assets/images/brandteig.jpeg',
       creator: '',
-      portions: '1 Kuchen',
+      portions: '',
       ingredientLines: [
         {amount: '1/4', unit: 'l', ingredient: 'Wasser' },
         {amount: '50', unit: 'g', ingredient: 'Butter oder Margarine' },
