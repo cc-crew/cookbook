@@ -33,4 +33,8 @@ export class ShoppingListComponent implements OnInit {
     });
     ingredient.clicked = true;
   }
+
+  orderAlphabetically(data: any[]) {
+    return data.sort((a, b) => a.ingredient.localeCompare(b.ingredient));
+  }
 }
