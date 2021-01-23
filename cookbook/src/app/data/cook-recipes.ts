@@ -19,7 +19,7 @@ export default [
         'Kartoffeln würfeln, Brokkoli in kleine Röschen teilen, Paprika würfeln in eine Auflaufform geben.',
         'Zwiebel würfeln und andünsten.',
         'Sahne und Ei zu den Zwiebeln geben mit Salz, Pfeffer, Paprika und Muskat würzen.',
-        'Über die Kartoffeln giesen mit Käse bestreuen.',
+        'Über die Kartoffeln gießen mit Käse bestreuen.',
         'Bei 160 Grad ca. 30 min backen',
         'Guten Appetit :)'
       ]
@@ -82,8 +82,8 @@ export default [
         'Diese in einer kalten Pfanne langsam erhitzen.',
         'Alle gewünschten Kräuter hinzugeben und langsam ohne Fett glasig dünsten.',
         'Rinderhack hinzu geben und anrösten.',
-        'Mit den passierten Toomaten und den Tomatenstücken ablöschen.',
-        '1-2 Std zimmern lassen, abschmecken und fertig.',
+        'Mit den passierten Tomaten und den Tomatenstücken ablöschen.',
+        '1-2 Std simmern lassen, abschmecken und fertig.',
         'Natürlich in der Zwischenzeit noch die Spaghetti nach Anleitung zubereiten',
         'Tipp: Ein frischer Salat macht sich toll dazu.',
         'Buon Appetito.'

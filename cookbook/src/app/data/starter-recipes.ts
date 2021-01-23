@@ -6,7 +6,7 @@ export default [
       creator: '',
       portions: '4-6 Portionen',
       ingredientLines: [
-        {amount: '1', unit: '', ingredient: 'Inger (walnussgroß)' },
+        {amount: '1', unit: '', ingredient: 'Ingwer (walnussgroß)' },
         {amount: '50', unit: 'g', ingredient: 'Zwiebeln' },
         {amount: '20', unit: 'g', ingredient: 'Butter' },
         {amount: '400', unit: 'g', ingredient: 'Kürbis (Hokkaido)' },
