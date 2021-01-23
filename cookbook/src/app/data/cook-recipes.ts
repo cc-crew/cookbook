@@ -161,5 +161,19 @@ export default [
         'Guten Appetit :)'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Gemüsepfannkuchen',
+      image: './assets/images/gemuesepfannkuchen.jpeg',
+      creator: '',
+      portions: 'Für 4 Personen',
+      ingredientLines: [
+        {amount: '', unit: '', ingredient: '' }
+      ],
+      instructions: [
+        ''
+      ]
+    }
   }
 ];
