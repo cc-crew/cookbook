@@ -73,7 +73,7 @@ export default [
       ],
       instructions: [
         'Hafer aufschroten und umfüllen.',
-        'In einer Schüssel mit lauwarmem Wasser zu einem "Brei" anrühren. Sie sollte groß genug sein, um noch Obst hinzuzugeben.',
+        'In einer Schüssel mit lauwarmem Wasser zu einem "Brei" anrühren. Die Schüssel sollte groß genug sein, um noch Obst hinzuzugeben.',
         'Den Brei einweichen lassen bis die anderen Zutaten vorbereitet sind.',
         '2 Bananen und 2 Äpfel in den Mixer geben und zerkleinern.',
         'Die restlichen Äpfel und Bananen klein schneiden.',
