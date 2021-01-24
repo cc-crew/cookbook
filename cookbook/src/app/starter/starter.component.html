@@ -11,7 +11,7 @@
     <div *ngFor="let name of orderRecipeAlphabetically(data) | filterByName:filterName">
       <div class="card" id="card" (click)="openRecipe(name)">
         <div class="image" >
-          <img class="trick" alt="..."
+          <img alt="..."
                src="{{name.recipe.image}}">
         </div>
         <div class="card-body" style="display: flex; flex-direction: column; align-items: center;">

@@ -74,7 +74,7 @@ export default [
   {
     recipe: {
       label: 'Zwiebelkuchen',
-      image: './assets/images/zwiebelk.jpeg',
+      image: './assets/images/zwiebelku.jpeg',
       creator: 'Roswitha Wagner',
       portions: '1 Kuchen',
       ingredientLines: [
