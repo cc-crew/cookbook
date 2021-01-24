@@ -16,10 +16,10 @@ export default [
         {amount: '', unit: '', ingredient: 'Gewürze nach Belieben' }
       ],
       instructions: [
-        'Kartoffeln würfeln, Brokkoli in kleine Röschen teilen, Paprika würfeln in eine Auflaufform geben.',
+        'Kartoffeln würfeln, Brokkoli in kleine Röschen teilen, Paprika würfeln und in eine Auflaufform geben.',
         'Zwiebel würfeln und andünsten.',
         'Sahne und Ei zu den Zwiebeln geben mit Salz, Pfeffer, Paprika und Muskat würzen.',
-        'Über die Kartoffeln gießen mit Käse bestreuen.',
+        'Über die Kartoffeln gießen und mit Käse bestreuen.',
         'Bei 160 Grad ca. 30 min backen',
         'Guten Appetit :)'
       ]
@@ -52,7 +52,7 @@ export default [
         'Den Backofen auf 180°C vorheizen.',
         'Die Brötchen vom Vortag (oder auch älter) in die lauwarme Milch einweichen. Wer keine Brötchen zur Hand hat, kann auch Semmelbrösel in etwas weniger Milch quellen lassen.',
         'Die Zwiebeln würfeln und den Knoblauch hacken oder Pressen und in Butter anbraten, die Zwiebeln dürfen ruhig schön braun sein.',
-        'Die Brötchen ausdrücken und mit dem Hackfleisch, Eiern, Senf, Pfeffer und etwas Brühe vermischen.',
+        'Die Brötchen ausdrücken und mit dem Hackfleisch, Eiern, Senf, Salz, Pfeffer und etwas Brühe vermischen.',
         'Ruhig kräftig würzen, sonst ist der Braten später "lasch".',
         'Dann die Zwiebeln und den Knoblauch dazu geben und einkneten.',
         'Die Hackfleischmasse zu einem Laib formen und in einer geölten Auflaufform oder einem geölten Blech mit den Bacon-Scheiben (Frühstücksspeck) belegen.',
@@ -75,7 +75,8 @@ export default [
         {amount: '250', unit: 'g', ingredient: 'Tomatenstücken' },
         {amount: '', unit: '', ingredient: 'Salz' },
         {amount: '', unit: '', ingredient: 'Gewürze nach Belieben (Pfeffer, Paprika, Mayoran, Thymian, etc.)' },
-        {amount: '500', unit: 'g', ingredient: 'Spaghetti' }
+        {amount: '500', unit: 'g', ingredient: 'Spaghetti' },
+        {amount: '', unit: '', ingredient: 'Parmesan' }
       ],
       instructions: [
         'Zwiebeln, Ingwer und Knoblauch in kleine Würfel schneiden.',
@@ -187,7 +188,7 @@ export default [
         'Zunächst aus den Zutaten für die Pfannkuchen einen Teig herstellen und Pfannkuchen in einer Pfanne zubereiten',
         'Das Gemüse in Olivenöl andünsten, immer wieder mit Sahne oder Milch ablöschen und würzen.',
         'Die Pfannkuchen mit dem Gemüse füllen, aufrollen und in die Auflaufform legen.',
-        'Die restliche Brühe vom Gemüse – wenn vorhanden- und etwas Sahne/Milch darübergeben.',
+        'Die restliche Brühe vom Gemüse – wenn vorhanden - und etwas Sahne/Milch darüber geben.',
         'Ebenso die Kräuterlinge, Petersilie und den geriebenen Käse.',
         'Ca. 20 Minuten bei 180 Grad in den Backofen und fertig.',
         'Schnell und lecker :).'
@@ -218,7 +219,7 @@ export default [
 
       ],
       instructions: [
-        'Für die Marinade einen Tag vorher anfagen: Hefeextrakt, Sojasauce, 4 EL Tomatenmark, Balsamico-Essig, 3 EL Olivenöl, 4 TL Paprikapulver, Salz, Pfeffer und Wasser zu einer Marinade rühren.',
+        'Für die Marinade einen Tag vorher anfangen: Hefeextrakt, Sojasauce, 4 EL Tomatenmark, Balsamico-Essig, 3 EL Olivenöl, 4 TL Paprikapulver, Salz, Pfeffer und Wasser zu einer Marinade rühren.',
         'Die groben Soja Schnetzel unterheben und alles über Nacht ziehen lassen.',
         'Zubereitung: Das Sojafleisch in Olivenöl ca. 5 Minuten scharf anbraten. Zwiebeln und Paprika hinzugeben und weitere 5 Minuten anbraten.',
         '3 EL Tomatenmark unterrühren, dann den Knoblauch dazu.',
