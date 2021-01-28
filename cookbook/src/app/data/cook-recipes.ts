@@ -236,7 +236,7 @@ export default [
       label: 'Spinatlasagne',
       image: './assets/images/spinatlasagne.jpg',
       creator: '',
-      portions: '',
+      portions: '4-5 Portionen',
       ingredientLines: [
         {amount: '600', unit: 'g', ingredient: 'Spinat tiefgekühlt' },
         {amount: '1', unit: '', ingredient: 'Knoblauchzehe' },
@@ -246,16 +246,17 @@ export default [
         {amount: '100', unit: 'g', ingredient: 'Parmesan (gerieben)' },
         {amount: '3', unit: '', ingredient: 'Eier' },
         {amount: '', unit: '', ingredient: 'Salz, Pfeffer, Muskat' },
-        {amount: '', unit: '', ingredient: 'Lasagne Blätter' }
+        {amount: '', unit: '', ingredient: 'Lasagneblätter' }
       ],
       instructions: [
         'Backofen auf 200° C vorheitzen',
         'Zwiebeln und Knoblauch fein schneiden und glasig dünsten.',
         'Den Spinat zugeben und unterrühren.',
-        'Den Quark, die Sahne, 60g Parmesan und die Eier zu einer Masse rühren. Mit Salz, Pfeffer und Muskat würzen.',
-        'In einer Auflaufform den Boden zuerst mit Spinat beistreichen, dann Lasagne Blätter darauf.',
+        'Den Quark, die Sahne, 60g Parmesan und die Eier zu einer Masse rühren.',
+        'Mit Salz, Pfeffer und Muskat würzen.',
+        'In einer Auflaufform den Boden zuerst mit Spinat beistreichen, dann Lasagne Blätter darauf legen.',
         'Diese dann mit der Quarkmasse bestreichen und Spinat dazugeben.',
-        'So weiter schichten bis Zutaten aufgebraucht. Am besten mit Spinat abschließen.',
+        'So weiter schichten bis alle Zutaten aufgebraucht sind. Am besten mit Spinat abschließen.',
         'Zum Schluss den restlichen Parmesan mit etwas Butter auf der Lasagne verteilen.',
         'Im vorgeheizten Backofen bei 200° C ca. 35min backen.'
       ]
@@ -266,7 +267,7 @@ export default [
       label: 'Rucola- Kresse- Nudeln',
       image: './assets/images/spag.jpg',
       creator: '',
-      portions: '',
+      portions: '3-4 Portionen',
       ingredientLines: [
         {amount: '300', unit: 'g', ingredient: 'Möhren' },
         {amount: '300', unit: 'g', ingredient: 'Spaghetti' },
@@ -283,8 +284,9 @@ export default [
         'Karotten in Stifte hobeln.',
         'Rucola (bzw. Kresse) waschen und klein schneiden.',
         'Zwiebeln und Knoblauch andünsten, anschließend mit Brühe ablöschen.',
-        'Karotten hinzugeben d köcheln. Nun Rucola (o. Kresse) mit andünsten.',
-        'Mascarpone zur Gemüsemischung geben und würzen. Anschließend mit den Spaghetti mischen.'
+        'Karotten hinzugeben und köcheln lassen. Nun Rucola (o. Kresse) mit andünsten.',
+        'Mascarpone zur Gemüsemischung geben und würzen.',
+        'Anschließend mit den Spaghetti mischen und fertig.'
       ]
     }
   },
@@ -292,8 +294,8 @@ export default [
     recipe: {
       label: 'Zitronen Brathähnchen',
       image: './assets/images/chicken.jpg',
-      creator: '',
-      portions: '',
+      creator: 'Jürgen',
+      portions: '2-3 Portionen',
       ingredientLines: [
         {amount: '1', unit: '', ingredient: 'frisches Bio Hähnchen' },
         {amount: '2', unit: '', ingredient: 'Bio Zitronen' },
@@ -303,13 +305,13 @@ export default [
       ],
       instructions: [
         'Hähnchen gut waschen und trocken tupfen.',
-        'Innen und aussen sehr stark salzen und mit Pfeffer würzen.',
-        'Die Zitronen warm waschen, abtrocken, auf der Küchenfläche walzen, dass die Zellen in der Zitrone aufbrechen.',
+        'Innen und außen sehr stark salzen und mit Pfeffer würzen.',
+        'Die Zitronen warm waschen, abtrocknen, auf der Küchenfläche walzen, dass die Zellen in der Zitrone aufbrechen.',
         'Dann eine Zitrone sehr oft am Umfang mit einer Dressiernadel einstechen.',
         'Die Zitrone in das Hähnchen geben und die Enden dicht verschließen (z.B. mit Dressurnadeln).',
         'Eine weitere gewaschene Zitrone in dicke Scheiben schneiden.',
         'Die Karotte schälen und in grobe Teile schneiden.',
-        '3 festkochende Kartoffeln schälen und in dickere Teile schneiden.',
+        '3 festkochende Kartoffeln schälen und in dickere Stücke schneiden.',
         'Einen Bräter nehmen, Zitronenscheiben und Gemüse einlegen, mit Wasser auffüllen ohne das Gemüse zu überdecken und das Hähnchen mit der Brust nach oben auf das Gemüse legen.',
         'Garzeit ca. 2h bei 180°-200°C',
         'Tipp: Sieht das Hähnchen eine halbe Stunde vor Ende nicht knusprig genug aus, Temperatur erhöhen, evtl. Umluft einschalten.'
@@ -321,7 +323,7 @@ export default [
       label: 'Bärlauchpesto',
       image: './assets/images/pesto.jpg',
       creator: 'Jürgen',
-      portions: '',
+      portions: '-',
       ingredientLines: [
         {amount: '200', unit: 'g', ingredient: 'Bärlauch' },
         {amount: '25', unit: 'g', ingredient: 'Pinienkerne' },
@@ -332,10 +334,10 @@ export default [
       instructions: [
         'Bärlauch waschen, trocken schleudern und in Streifen schneiden.',
         'Pinienkerne ohne Fett in der Pfanne leicht hellbraun anrösten.',
-        'Parmesan fein reiben.',
+        'Parmesan feinreiben.',
         'Pinienkerne fein hacken (TM, Möser, ect.)',
         'Die restlichen Zutaten zu den Pinienkernen dazu geben und zu einer sämigen Masse mixen.',
-        'Wenn dann Pesto zu dickflüssig ist, mehr Öl dazu geben.',
+        'Wenn das Pesto zu dickflüssig ist, mehr Öl dazu geben.',
         'Das Pesto ist im Kühlschrank min. 2 Wochen haltbar.',
         'Tipp: Pinienkerne lassen sich auch durch Sonnenblumenkerne oder andere Nusssorten austauschen, ebenso kannst du mit anderen Käse- und Ölsorten experimentieren.',
         'Tipp 2: Mit Joghurt und Sauerrahm mischen für eine Grillsauce.'

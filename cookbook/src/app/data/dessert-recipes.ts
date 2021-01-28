@@ -103,7 +103,7 @@ export default [
         'Wasser weggießen und die 200ml heißes Wasser dazu geben.',
         'Jetzt alle restlichen Zutaten, bis auf die Beeren und das Topping, dazu geben und mit einem Handquirler vorsichtig 1-2 Minuten aufquirlen.',
         'Die Masse verdoppelt sich dadurch und wird zu einer Mousse – diese dann in eine große Schale füllen.',
-        'Schale füllen. Beeren dazu geben und ca. eine Stunde kaltstellen.'
+        'Beeren dazu geben und ca. eine Stunde kaltstellen.'
       ]
     }
   },
@@ -123,7 +123,7 @@ export default [
       instructions: [
         'Alle Zutaten verrühren und etwas Mineralwasser dazu geben, bis es ein Teig wird.',
         'Dann langsam bei mittlerer Stufe Pancakes ausbacken.',
-        'Nach Wunsch mit Früchten, Saucen, Nüssen ect. belegen.'
+        'Nach Wunsch mit Früchten, Saucen, Nüssen ect. toppen.'
       ]
     }
   }
