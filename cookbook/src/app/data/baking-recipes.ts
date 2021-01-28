@@ -324,5 +324,42 @@ export default [
         'Etwas abkühlen lassen, dann in die vorgegebenen Portionen teilen und zum Servieren jeweils einen Schlag Dip und frischen Schnittlauch darauf geben.'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Zimtschnecken',
+      image: './assets/images/zimtschnecken.png',
+      creator: 'Isabell Joa ',
+      portions: '12 Schnecken',
+      ingredientLines: [
+        {amount: '130', unit: 'g', ingredient: 'lauwarme Milch (Hefeteig)' },
+        {amount: '21', unit: 'g', ingredient: 'frische Hefe (Hefeteig)' },
+        {amount: '15', unit: 'g', ingredient: 'Zucker (Hefeteig)' },
+        {amount: '500', unit: 'g', ingredient: 'Mehl (Hefeteig)' },
+        {amount: '1/2', unit: 'TL', ingredient: 'Salz (Hefeteig)' },
+        {amount: '1', unit: 'TL', ingredient: 'Backpulver, gehäuft (Hefeteig)' },
+        {amount: '170', unit: 'g', ingredient: 'Naturjoghurt (Hefeteig)' },
+        {amount: '1', unit: '', ingredient: 'Ei (Hefeteig)' },
+        {amount: '100', unit: 'g', ingredient: 'geschmolzene Butter (Füllung)' },
+        {amount: '120', unit: 'g', ingredient: 'brauner Zucker (Füllung)' },
+        {amount: '2', unit: 'TL', ingredient: 'Zimt (Füllung)' },
+        {amount: '120', unit: 'g', ingredient: 'Frischkäse (Frischkäse-Frosting)' },
+        {amount: '120', unit: 'g', ingredient: 'Puderzucker (Frischkäse-Frosting)' },
+        {amount: '55', unit: 'g', ingredient: 'weiche Butter (Frischkäse-Frosting)' },
+        {amount: '1', unit: 'TL', ingredient: 'Vanilleextrakt (Frischkäse-Frosting)' },
+      ],
+      instructions: [
+        'Für den Hefeteig verrührt ihr die lauwarme Milch, den Zucker und die Hefe miteinander.',
+        'Anschließend alle weiteren Zutaten für den Teig zugeben und verkneten, bis ein glatter Teig entsteht.',
+        'Deckt die Schüssel ab und lasst den Teig 60-75 Minuten bei Zimmertemperatur gehen, er sollte sich auf jeden Fall verdoppeln.',
+        'Für die Füllung alle Zutaten miteinander vermischen.',
+        'Für das Frischkäse-Frosting auch alle Zutaten miteinander verrühren, bis sie eine glatte Masse bilden.',
+        'Den Teig ausrollen und die Füllung gleichmäßig darauf verteilen.',
+        'Anschließend den Teig zusammenrollen und in gleichmäßig große Schnecken schneiden.',
+        'Bei 180 Grad im Backofen ungefähr 15-20 Minuten, je nach gewünschter Bräune, backen',
+        'Die Masse für das Frischkäse-Frosting in einen Spritzbeutel geben und die Schnecken nach dem Abkühlen damit verzieren.',
+        'Lasst es euch schmecken, liebe Grüße aus dem Mainhardter Wald'
+      ]
+    }
   }
 ];

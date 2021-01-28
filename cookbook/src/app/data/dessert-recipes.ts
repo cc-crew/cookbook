@@ -82,5 +82,49 @@ export default [
         'Zum Schluss mit den zerkleinerten Mandeln bestreuen und genießen.'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Götterquark',
+      image: './assets/images/goetterquark.jpeg',
+      creator: 'Lisa Dittrich',
+      portions: 'Für 4 Portionen',
+      ingredientLines: [
+        {amount: '6', unit: '', ingredient: 'Blattgelatine' },
+        {amount: '200', unit: 'ml', ingredient: 'heißes Wasser' },
+        {amount: '250', unit: 'g', ingredient: 'Magerquark' },
+        {amount: '25', unit: 'g', ingredient: 'Proteinpulver oder anderes Süßungsmittel' },
+        {amount: '', unit: '', ingredient: 'TK-Beeren' },
+        {amount: '', unit: '', ingredient: 'Zimt' },
+        {amount: '', unit: '', ingredient: 'optional: Kokosflocken, Nüsse, Schokolade als Topping' }
+      ],
+      instructions: [
+        'Die Blattgelatine in einer großen, hohen Schüssel kurz in kaltem Wasser aufweichen.',
+        'Wasser weggießen und die 200ml heißes Wasser dazu geben.',
+        'Jetzt alle restlichen Zutaten, bis auf die Beeren und das Topping, dazu geben und mit einem Handquirler vorsichtig 1-2 Minuten aufquirlen.',
+        'Die Masse verdoppelt sich dadurch und wird zu einer Mousse – diese dann in eine große Schale füllen.',
+        'Schale füllen. Beeren dazu geben und ca. eine Stunde kaltstellen.'
+      ]
+    }
+  },
+  {
+    recipe: {
+      label: 'Magerquark Pancakes',
+      image: './assets/images/magerpancakes.jpeg',
+      creator: 'Lisa Dittrich',
+      portions: 'Für 4 Portionen',
+      ingredientLines: [
+        {amount: '250', unit: 'g', ingredient: 'Magerquark' },
+        {amount: '1', unit: '', ingredient: 'Ei' },
+        {amount: '50', unit: 'g', ingredient: 'Dinkelmehl' },
+        {amount: '', unit: '', ingredient: 'Süße + Zimt nach Wunsch' },
+        {amount: '', unit: '', ingredient: 'Schuss Mineralwasser' }
+      ],
+      instructions: [
+        'Alle Zutaten verrühren und etwas Mineralwasser dazu geben, bis es ein Teig wird.',
+        'Dann langsam bei mittlerer Stufe Pancakes ausbacken.',
+        'Nach Wunsch mit Früchten, Saucen, Nüssen ect. belegen.'
+      ]
+    }
   }
 ];
