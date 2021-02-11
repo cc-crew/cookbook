@@ -343,5 +343,26 @@ export default [
         'Tipp 2: Mit Joghurt und Sauerrahm mischen für eine Grillsauce.'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Panierte Zucchinischeiben',
+      image: './assets/images/zuccini.jpg',
+      creator: '',
+      portions: 'Für 2 Portionen',
+      ingredientLines: [
+        {amount: '2', unit: '', ingredient: 'kleine Zucchini' },
+        {amount: '1', unit: '', ingredient: 'Ei' },
+        {amount: '', unit: '', ingredient: 'Mehl' },
+        {amount: '', unit: '', ingredient: 'Semmelbrösel' },
+        {amount: '', unit: '', ingredient: 'Salz, Pfeffer, Paprikapulver' },
+        {amount: '', unit: '', ingredient: 'Öl' }
+      ],
+      instructions: [
+        'Die Zucchini waschen und trockentupfen, dann in ca. 1cm dicke Scheiben schneiden. ',
+        'Die Zucchinischeiben erst in Mehl wenden, dann in einer Mischung aus verkleppertem Ei und den Gewürzen, zum Schluss in den Semmelbröseln.',
+        'Die panierten Zucchini in einer Pfanne mit neutralem Öl, z.B. Sonnenblumenöl, auf mittlerer Hitze von beiden Seiten goldbraun braten.'
+      ]
+    }
   }
 ];

@@ -361,5 +361,33 @@ export default [
         'Lasst es euch schmecken, liebe Grüße aus dem Mainhardter Wald'
       ]
     }
+  },
+  {
+    recipe: {
+      label: 'Schwäbische Pizzabrötchen/ Briegel-Schmiere',
+      image: './assets/images/pizzabroetchen.jpg',
+      creator: 'Diana',
+      portions: 'Für 8 Briegel',
+      ingredientLines: [
+        {amount: '400', unit: 'g', ingredient: 'Raclette-Käse' },
+        {amount: '300', unit: 'g', ingredient: 'Schinken' },
+        {amount: '200', unit: 'g', ingredient: 'Naturjoghurt' },
+        {amount: '1/2', unit: 'Becher', ingredient: 'Süße Sahne' },
+        {amount: '1/2', unit: 'Becher', ingredient: 'Saure Sahne' },
+        {amount: '2', unit: '', ingredient: 'Zwiebeln' },
+        {amount: '5', unit: '', ingredient: 'Frühlingszwiebeln' },
+        {amount: '2', unit: '', ingredient: 'Paprika' },
+        {amount: '', unit: '', ingredient: 'Schnittlauch (am besten viel)' },
+        {amount: '', unit: '', ingredient: 'Salz und Pfeffer' },
+        {amount: '8', unit: '', ingredient: 'Briegel (am besten die mit Salz und Kümmel )' }
+      ],
+      instructions: [
+        'Backofen auf 180 Grad Ober-Unter-Hitze',
+        'Alles klein schneiden und vermengen.',
+        'Die Briegel aufschneiden und jeweils bestreichen.',
+        'Für 10-15 Minuten bei 180 Grad Ober-Unter-Hitze überbacken und im Anschluss gleich genießen.',
+        'Viel Spaß beim Nachmachen und liebe Grüße von Diana :)'
+      ]
+    }
   }
 ];
